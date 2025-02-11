@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_sale
-# 
+#
 # Translators:
 # Felix Schubert <felix.schubert@go-erp.com>, 2024
 # Larissa Manderfeld, 2024
 # Wil Odoo, 2025
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
@@ -15,10 +15,10 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: website_sale
@@ -707,7 +707,7 @@ msgstr "Aktion"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_template__message_needaction
 msgid "Action Needed"
-msgstr "Aktion erforderlich"
+msgstr "Aktion notwendig"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -1264,8 +1264,8 @@ msgid ""
 "Changing your name is not allowed once invoices have been issued for your "
 "account. Please contact us directly for this operation."
 msgstr ""
-"Der Name darf nicht geändert werden, sobald eine Rechnung für Sie erzeugt "
-"wurde. Bitte wenden Sie sich direkt an uns."
+"Ihr Name darf nicht geändert werden, sobald eine Rechnung Ihr Konto erzeugt "
+"wurde. Bitte wenden Sie sich diesbezüglich direkt an uns."
 
 #. module: website_sale
 #. odoo-python
@@ -1365,7 +1365,7 @@ msgstr "Schließen"
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/location_selector/location_schedule/location_schedule.js:0
 msgid "Closed"
-msgstr "Abgeschlossen"
+msgstr "Geschlossen"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -1584,7 +1584,7 @@ msgstr "Erstellen"
 #. module: website_sale
 #: model_terms:ir.actions.act_window,help:website_sale.product_template_action_website
 msgid "Create a new product"
-msgstr "Neues Produkt erstellen"
+msgstr "Ein neues Produkt erstellen"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image__create_uid
@@ -1949,7 +1949,8 @@ msgstr ""
 #: code:addons/website_sale/models/digest.py:0
 msgid "Do not have access, skip this data for user's digest email"
 msgstr ""
-"Kein Zugriff, überspringen Sie diese Daten für die E-Mail des Benutzer"
+"Keine Zugriffsberechtigung, überspringen dieser Daten für die E-Mail-"
+"Übersicht des Benutzers."
 
 #. module: website_sale
 #. odoo-javascript
@@ -2303,7 +2304,7 @@ msgstr "Zum Warenkorb gehen"
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Grid"
-msgstr "Raster"
+msgstr "Gitter"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website__shop_gap
@@ -2501,7 +2502,8 @@ msgstr "Sofortiger Kassiervorgang, statt Hinzufügen zum Warenkorb"
 #: code:addons/website_sale/controllers/main.py:0
 msgid "Invalid Email! Please enter a valid email address."
 msgstr ""
-"E-mail Addresse ungültig. Bitte geben Sie eine gültige E-mail Adresse ein."
+"Ungültige E-Mail-Adresse! Bitte geben Sie eine gültige E-mail E-Mail-"
+"Adresse."
 
 #. module: website_sale
 #. odoo-python
@@ -2513,7 +2515,7 @@ msgstr "Ungültiges Bild"
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__module_account
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Invoicing"
-msgstr "Rechnungsstellung"
+msgstr "Buchhaltung"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -2810,7 +2812,7 @@ msgstr "Kartenansicht"
 #. module: website_sale
 #: model:ir.model.fields.selection,name:website_sale.selection__website__product_page_image_spacing__medium
 msgid "Medium"
-msgstr "Medium"
+msgstr "Mittel"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_mega_menu_menu_image_menu
@@ -2820,7 +2822,7 @@ msgstr "Standardbild für Megamenü"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_template__message_has_error
 msgid "Message Delivery error"
-msgstr "Error beim senden der Nachricht"
+msgstr "Nachricht mit Zustellungsfehler"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_template__message_ids
@@ -2977,7 +2979,7 @@ msgstr "Kein Ergebnis"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "No results"
-msgstr "Keine Treffer"
+msgstr "Keine Ergebnisse"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
@@ -3042,7 +3044,7 @@ msgstr "Anzahl der Aktionen"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_template__message_has_error_counter
 msgid "Number of errors"
-msgstr "# Fehler"
+msgstr "Anzahl der Fehler"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website__shop_ppr
@@ -3057,7 +3059,7 @@ msgstr "Anzahl der Nachrichten, die eine Aktion erfordern"
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_template__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Anzahl der Nachrichten mit Zustellungsfehler"
+msgstr "Anzahl der Nachrichten mit Zustellungsfehler."
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website__shop_ppg
@@ -3067,7 +3069,7 @@ msgstr "Anzahl der Produkte im Raster des Shops"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Odoo Menu"
-msgstr "Odoo-Menü"
+msgstr "Menü"
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_desks_office
@@ -3167,7 +3169,7 @@ msgstr "Oder scannen Sie mich mit Ihrer Banking-App."
 #: model_terms:ir.ui.view,arch_db:website_sale.view_sales_order_filter_ecommerce_abondand
 #: model_terms:ir.ui.view,arch_db:website_sale.view_sales_order_filter_ecommerce_unpaid
 msgid "Order Date"
-msgstr "Bestelldatum"
+msgstr "Auftragsdatum"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_sale_order__website_order_line
@@ -3241,7 +3243,7 @@ msgstr "Zahlungsanbieter"
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_payment_token
 msgid "Payment Token"
-msgstr "Zahlungs-Token"
+msgstr "Zahlungstoken"
 
 #. module: website_sale
 #: model:ir.ui.menu,name:website_sale.menu_ecommerce_payment_tokens
@@ -3268,7 +3270,7 @@ msgstr "Telefon"
 #. odoo-javascript
 #: code:addons/website_sale/static/src/js/website_sale_form_editor.js:0
 msgid "Phone Number"
-msgstr "Telefonnummer"
+msgstr "Telefonnummer:"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -3316,7 +3318,7 @@ msgstr "Verkauf von kostenlosen Produkten verhindern"
 #: code:addons/website_sale/static/src/xml/website_sale_image_viewer.xml:0
 #: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_preview_data
 msgid "Previous"
-msgstr "Zurück"
+msgstr "Vorherige"
 
 #. module: website_sale
 #. odoo-javascript
@@ -3811,7 +3813,7 @@ msgstr "Aus dem Warenkorb entfernen"
 #: model_terms:ir.ui.view,arch_db:website_sale.cart_lines
 #: model_terms:ir.ui.view,arch_db:website_sale.product_quantity
 msgid "Remove one"
-msgstr "Eins entfernen"
+msgstr "Entfernen"
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_services_repair_and_maintenance
@@ -3888,7 +3890,7 @@ msgstr "SMS-Zustellungsfehler"
 #. module: website_sale
 #: model:product.ribbon,name:website_sale.sale_ribbon
 msgid "Sale"
-msgstr "Sale"
+msgstr "Verkauf"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.sale_report_view_graph_website
@@ -3900,7 +3902,7 @@ msgstr "Verkaufsanalyse"
 #: model_terms:ir.ui.view,arch_db:website_sale.digest_digest_view_form
 #: model_terms:ir.ui.view,arch_db:website_sale.sale_report_view_search_website
 msgid "Sales"
-msgstr "Verkäufe"
+msgstr "Verkauf"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.sale_report_view_pivot_website
@@ -4692,7 +4694,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/website_sale/controllers/main.py:0
 msgid "VAT"
-msgstr "MwSt."
+msgstr "Umsatzsteuer"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_add_to_cart_options
@@ -5090,7 +5092,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.payment_confirmation_status
 msgid "Your payment has been authorized."
-msgstr "Ihre Zahlung wurde genehmigt."
+msgstr "Ihre Zahlung wurde autorisiert."
 
 #. module: website_sale
 #. odoo-javascript

@@ -1,13 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website
-# 
+#
 # Translators:
 # MIRIAM SOPHIE KELLER, 2024
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
@@ -16,10 +16,10 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Larissa Manderfeld, 2024\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: website
@@ -2521,7 +2521,7 @@ msgstr "Zubehör"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
 msgid "Accordion"
-msgstr "Akkordeon"
+msgstr "Accordeon"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -2597,7 +2597,7 @@ msgstr "Anpassung der Bausteine."
 #: model_terms:ir.ui.view,arch_db:website.s_card_options
 #: model_terms:ir.ui.view,arch_db:website.s_image_gallery_options
 msgid "Add"
-msgstr "Hinzufügen:"
+msgstr "Hinzufügen"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.view_edit_third_party_domains
@@ -2606,7 +2606,7 @@ msgid ""
 "\"example.com\")</em>, one per line."
 msgstr ""
 "Fügen Sie Domains für Dienste von Drittanbietern hinzu "
-"<em>(\"www.beispiel.com\" oder \"beispiel.com\")</em>, eine pro Zeile."
+"<em>(\"www.example.com\" oder \"example.com\")</em>, eine pro Zeile."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_timeline_options
@@ -3156,7 +3156,7 @@ msgstr "Ein Element"
 #: model:ir.actions.client,name:website.backend_dashboard
 #: model:ir.ui.menu,name:website.menu_website_analytics
 msgid "Analytics"
-msgstr "Analytics"
+msgstr "Analysen"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
@@ -3325,7 +3325,7 @@ msgstr ""
 #. module: website
 #: model:ir.model,name:website.model_ir_asset
 msgid "Asset"
-msgstr "Asset"
+msgstr "Aktiva"
 
 #. module: website
 #: model:ir.model,name:website.model_web_editor_assets
@@ -3733,7 +3733,7 @@ msgstr "Von Unten nach Oben"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Bounce"
-msgstr "Hüpfend"
+msgstr "Unzustellbar"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -4703,7 +4703,7 @@ msgstr "Besucher kontaktieren"
 #: model_terms:ir.ui.view,arch_db:website.s_text_cover
 #: model_terms:ir.ui.view,arch_db:website.template_footer_headline
 msgid "Contact us"
-msgstr "Kontakt"
+msgstr "Kontaktieren Sie uns"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus
@@ -4899,7 +4899,7 @@ msgstr "Kurs"
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 #: model_terms:ir.ui.view,arch_db:website.snippets
 msgid "Cover"
-msgstr "Titel"
+msgstr "Titelbild"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_card_options
@@ -5868,7 +5868,7 @@ msgstr "Dolly-Zoom"
 #: model:ir.model.fields,field_description:website.field_website_controller_page__record_domain
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Domain"
-msgstr "Domain"
+msgstr "Bereich"
 
 #. module: website
 #: model:ir.model.fields,help:website.field_website_controller_page__record_domain
@@ -6945,7 +6945,7 @@ msgstr "Fest"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Flag"
-msgstr "Kennzeichnen"
+msgstr "Flagge"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -6981,7 +6981,7 @@ msgstr "Über Y-Achse drehen"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_image_gallery_options
 msgid "Float"
-msgstr "Schwebend"
+msgstr "Gleitkommazahlen"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_references_social
@@ -7385,7 +7385,7 @@ msgstr "Zurück"
 #. odoo-javascript
 #: code:addons/website/static/src/components/fields/redirect_field.xml:0
 msgid "Go to"
-msgstr "Zur"
+msgstr "Gehe zu"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus_thanks_ir_ui_view
@@ -7418,7 +7418,7 @@ msgstr "Gehen Sie zum Designmotiv-Reiter"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.layout
 msgid "Go to your Odoo Apps"
-msgstr "Zu Ihren Odoo Apps"
+msgstr "Zu Ihren Apps"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_carousel
@@ -7803,7 +7803,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 #: model_terms:ir.ui.view,arch_db:website.snippet_options_carousel
 msgid "Hidden"
-msgstr "Ausgeblendet"
+msgstr "Verborgen"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options_conditional_visibility
@@ -7906,7 +7906,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.template_footer_links
 #: model_terms:ir.ui.view,arch_db:website.template_footer_minimalist
 msgid "Home"
-msgstr "Home"
+msgstr "Zuhause"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
@@ -8071,7 +8071,7 @@ msgstr "IAP-Seitencode"
 #: model_terms:ir.ui.view,arch_db:website.s_blockquote_options
 #: model_terms:ir.ui.view,arch_db:website.s_rating_options
 msgid "Icon"
-msgstr "Icon"
+msgstr "Symbol"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_accordion_options
@@ -8146,8 +8146,8 @@ msgid ""
 "* if False, the view currently does not extend its parent but can be enabled\n"
 "         "
 msgstr ""
-"Wenn dieses Sicht abgeleitet wurde,\n"
-"* Wenn wahr, erweitert diese Sicht immer die übergeordnete Ansicht\n"
+"Wenn diese Ansicht abgeleitet wurde,\n"
+"* Wenn wahr, erweitert diese Ansicht immer die übergeordnete Ansicht\n"
 "* Wenn falsch, wird die übergeordnete Ansicht nicht erweitert, kann aber bei Bedarf wieder aktiviert werden\n"
 "             "
 
@@ -8267,14 +8267,14 @@ msgstr "Bilderrahmen"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
 msgid "Image Gallery"
-msgstr "Bildergalerie"
+msgstr "Bildergallerie"
 
 #. module: website
 #. odoo-javascript
 #: code:addons/website/static/src/snippets/s_image_gallery/000.xml:0
 #: code:addons/website/static/src/snippets/s_image_gallery/001.xml:0
 msgid "Image Gallery Dialog"
-msgstr "Bildergalerie-Dialog"
+msgstr "Bildergallerie-Dialog"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -8897,7 +8897,7 @@ msgid ""
 "            still customizable."
 msgstr ""
 "Es scheint, dass Ihre Website an einigen Stellen noch das alte Farbsystem von\n"
-"            Odoo 13.0 verwendet. Wir haben sichergestellt, dass es noch funktioniert, aber\n"
+"            Version 13.0 verwendet. Wir haben sichergestellt, dass es noch funktioniert, aber\n"
 "            wir empfehlen Ihnen, das neue Farbsystem zu verwenden, das\n"
 "            auch anpassbar ist."
 
@@ -9071,7 +9071,7 @@ msgstr "Start"
 #: model_terms:ir.ui.view,arch_db:website.s_website_form_options
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Label"
-msgstr "Bezeichnung"
+msgstr "Buchungstext"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_ir_model__website_form_label
@@ -9370,7 +9370,7 @@ msgstr "Legende"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Let your customers log in to see their documents"
-msgstr "Kunden können sich einloggen, um ihre Dokumente zu sehen"
+msgstr "Kunden können sich anmelden, um ihre Dokumente zu sehen"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_process_steps
@@ -9453,7 +9453,7 @@ msgstr "Limit"
 #: model_terms:ir.ui.view,arch_db:website.s_chart_options
 #: model_terms:ir.ui.view,arch_db:website.s_process_steps_options
 msgid "Line"
-msgstr "Linie"
+msgstr "Zeile"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -9708,7 +9708,7 @@ msgstr "Margherita"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Margins"
-msgstr "Rahmen"
+msgstr "Margen"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_website_form_options
@@ -10614,7 +10614,7 @@ msgstr "Nichts"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_website_form_options
 msgid "Number"
-msgstr "Zahl"
+msgstr "Nummer"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_res_config_settings__website_language_count
@@ -10663,17 +10663,17 @@ msgstr "ODER"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Odoo Information"
-msgstr "Odoo-Information"
+msgstr "Information"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Odoo Menu"
-msgstr "Odoo-Menü"
+msgstr "Menü"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
 msgid "Odoo Version"
-msgstr "Odoo-Version"
+msgstr "Version"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu
@@ -11280,7 +11280,7 @@ msgstr "Überlagern"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Padding"
-msgstr "Puffer"
+msgstr "Auffüllung"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -11574,7 +11574,7 @@ msgstr "Pete Bluestork"
 #. odoo-javascript
 #: code:addons/website/static/src/js/send_mail_form.js:0
 msgid "Phone Number"
-msgstr "Telefonnummer"
+msgstr "Telefonnummer:"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_thumbnails
@@ -11797,7 +11797,7 @@ msgstr "Preisliste Café"
 #: model:website.configurator.feature,name:website.feature_page_pricing
 #: model_terms:ir.ui.view,arch_db:website.pricing
 msgid "Pricing"
-msgstr "Preisgestaltung"
+msgstr "Preiskalkulation"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_groups
@@ -12186,7 +12186,7 @@ msgstr "Empfänger-E-Mail"
 #. module: website
 #: model:ir.model,name:website.model_ir_rule
 msgid "Record Rule"
-msgstr "Datensatzregel"
+msgstr "Regel"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_controller_page__record_view_id
@@ -12726,7 +12726,7 @@ msgstr "Nach unten zum nächsten Abschnitt scrollen"
 #: model_terms:ir.ui.view,arch_db:website.snippets
 #: model_terms:ir.ui.view,arch_db:website.website_search_box
 msgid "Search"
-msgstr "Suchen"
+msgstr "Suche"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_landing_2_s_text_block_h2
@@ -12764,9 +12764,9 @@ msgid ""
 "picture, in just a few clicks."
 msgstr ""
 "Suchen Sie im Mediendialog, wenn Sie Fotos zur Illustration Ihrer Website "
-"benötigen. Die Integration von Odoo mit Unsplash, das Millionen von "
-"lizenzfreien und qualitativ hochwertigen Fotos bietet, ermöglicht es Ihnen, "
-"mit wenigen Klicks das perfekte Bild zu finden."
+"benötigen. Die Integration mit Unsplash, das Millionen von lizenzfreien und "
+"qualitativ hochwertigen Fotos bietet, ermöglicht es Ihnen, mit wenigen "
+"Klicks das perfekte Bild zu finden."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_searchbar
@@ -13115,7 +13115,7 @@ msgstr "Arch-Differenz anzeigen"
 #: model:ir.model.fields,field_description:website.field_website_controller_page__customize_show
 #: model:ir.model.fields,field_description:website.field_website_page__customize_show
 msgid "Show As Optional Inherit"
-msgstr "Vererbung als Option anzeigen"
+msgstr "Inherit als Option anzeigen"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -13742,7 +13742,7 @@ msgstr "Subtil"
 #: model_terms:ir.ui.view,arch_db:website.s_badge_options
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Success"
-msgstr "Erfolgreich"
+msgstr "Erfolg"
 
 #. module: website
 #: model:website.configurator.feature,name:website.feature_module_success_stories
@@ -14401,7 +14401,7 @@ msgid ""
 "This field should be used when accessing view arch. It will use translation.\n"
 "                               Note that it will read `arch_db` or `arch_fs` if in dev-xml mode."
 msgstr ""
-"Dieses Feld sollte beim Zugriff auf die Ansichtsarchitektur verwendet werden. Es wird die Übersetzung verwenden.\n"
+"Dieses Feld sollte beim Zugriff auf den Ansichtsbogen verwendet werden. Es wird die Übersetzung verwenden.\n"
 "Beachten Sie, dass es `arch_db` oder `arch_fs` liest, wenn es im dev-xml-Modus ist."
 
 #. module: website
@@ -14417,7 +14417,7 @@ msgid ""
 "This field will save the current `arch_db` before writing on it.\n"
 "                                                                         Useful to (soft) reset a broken view."
 msgstr ""
-"Dieses Feld wird die aktuelle „arch_db“ vor dem Schreiben darauf speichern.\n"
+"Dieses Feld wird die aktuelle `arch_db` vor dem Schreiben darauf speichern.\n"
 "                                                                         Nützlich, um eine defekte Ansicht (weich) zurückzusetzen."
 
 #. module: website
@@ -14678,7 +14678,7 @@ msgstr "Tipp: Verwenden Sie lizenzfreie Fotos"
 #: model_terms:ir.ui.view,arch_db:website.s_text_block_h2
 #: model_terms:ir.ui.view,arch_db:website.snippets
 msgid "Title"
-msgstr "Titel"
+msgstr "Anrede"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -14739,9 +14739,10 @@ msgid ""
 msgstr ""
 "Um mehr Besucher zu erhalten, sollten Sie auf Schlüsselwörter abzielen, die "
 "häufig in Google gesucht werden. Mit dem eingebauten SEO-Tool empfiehlt "
-"Ihnen Odoo, sobald Sie ein paar Schlagwörter definiert haben, die besten "
-"Schlagwörter, auf die Sie abzielen sollten. Passen Sie dann Ihren Titel und "
-"Ihre Beschreibung entsprechend an, um Ihr Besucheraufkommen zu steigern."
+"Ihnen das CRM-System, sobald Sie ein paar Schlagwörter definiert haben, die "
+"besten Schlagwörter, auf die Sie abzielen sollten. Passen Sie dann Ihren "
+"Titel und Ihre Beschreibung entsprechend an, um Ihr Besucheraufkommen zu "
+"steigern."
 
 #. module: website
 #. odoo-javascript
@@ -15130,7 +15131,7 @@ msgstr "Enthüllen"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_features_wall
 msgid "Unveil Our Exclusive Collections"
-msgstr "Enthüllung unserer exklusiven Kollektionen"
+msgstr "Enthüllung unserer exklusiven Kollektio"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_unveil
@@ -15454,7 +15455,7 @@ msgstr "Ansichtstyp"
 #: model:ir.model.fields,field_description:website.field_website_controller_page__mode
 #: model:ir.model.fields,field_description:website.field_website_page__mode
 msgid "View inheritance mode"
-msgstr "Vererbungsmodus anzeigen"
+msgstr "Vererbungsmodus für Ansicht"
 
 #. module: website
 #. odoo-javascript
@@ -16763,8 +16764,8 @@ msgstr ""
 msgid ""
 "Your instagram page must be public to be integrated into an Odoo website."
 msgstr ""
-"Ihre Instagram-Seite muss öffentlich sein, um in eine Odoo-Website "
-"integriert werden zu können."
+"Ihre Instagram-Seite muss öffentlich sein, um in eine Website integriert "
+"werden zu können."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_cover
@@ -16950,7 +16951,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/website/static/src/components/views/theme_preview.xml:0
 msgid "close"
-msgstr "Schließen"
+msgstr "schließen"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -17070,7 +17071,7 @@ msgid ""
 msgstr ""
 "Inhalt, Bild, Foto, Illustration, Medien, visuell, Artikel, Geschichte, "
 "Kombination, trendy, Muster, Design, Form, geometrisch, gemustert, Kontrast,"
-" Gestaltung, Galerie, kreativ, Mosaik"
+" Gestaltung, Gallerie, kreativ, Mosaik"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -17515,7 +17516,7 @@ msgstr "meine Kunden zu informieren"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
 msgid "instance of Odoo, the"
-msgstr "Odoo-Instanz,"
+msgstr "Instanz,"
 
 #. module: website
 #: model:ir.model.fields.selection,name:website.selection__theme_ir_ui_view__inherit_id__ir_ui_view

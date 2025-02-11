@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing
-# 
+#
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2024\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: mass_mailing
@@ -1082,7 +1082,7 @@ msgstr "Auto"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_tree
 msgid "Average"
-msgstr "Durchschnittlich"
+msgstr "Durchschnitt"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.utm_campaign_view_form
@@ -1232,7 +1232,7 @@ msgstr "Blockzitat"
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__body_arch
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Body"
-msgstr "Nachrichtentext"
+msgstr "Körper"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.snippet_options
@@ -1387,7 +1387,7 @@ msgstr "Abgebrochen"
 #: model:ir.model.fields.selection,name:mass_mailing.selection__mailing_trace__trace_status__cancel
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_trace_view_search
 msgid "Cancelled"
-msgstr "Abgebrochen"
+msgstr "Storniert"
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_mailing_test__email_to
@@ -1641,7 +1641,7 @@ msgstr "Kontaktliste, die importiert werden soll, ein Kontakt pro Zeile"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_call_to_action
 msgid "Contact us"
-msgstr "Kontakt"
+msgstr "Kontaktieren Sie uns"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_contact_to_list__contact_ids
@@ -1919,7 +1919,7 @@ msgstr "Entdecken"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_showcase
 msgid "Discover all the features"
-msgstr "Entdecken Sie alle Funktionen"
+msgstr "Alle Funktionen entdecken"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_contact__display_name
@@ -1953,7 +1953,7 @@ msgstr "Dokumentmodell"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_filter_view_form
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_filter_view_tree
 msgid "Domain"
-msgstr "Domain"
+msgstr "Bereich"
 
 #. module: mass_mailing
 #. odoo-javascript
@@ -2215,7 +2215,7 @@ msgstr "Funktionen"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Features Grid"
-msgstr "Funktionsraster"
+msgstr "Raster für Funktionen"
 
 #. module: mass_mailing
 #. odoo-python
@@ -2479,7 +2479,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__activity_exception_icon
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_rating_options
 msgid "Icon"
-msgstr "Icon"
+msgstr "Symbol"
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_mailing__activity_exception_icon
@@ -2634,7 +2634,7 @@ msgstr ""
 "Iris hilft uns mit ihrer internationalen Erfahrung, die Zahlen leicht zu "
 "verstehen und sie zu verbessern. Sie ist entschlossen, den Erfolg "
 "voranzutreiben und liefert ihren professionellen Scharfsinn, um das "
-"Unternehmen auf die nächste Stufe zu bringen."
+"Unternehmen auf die nächste Stufe zu heben."
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__is_ab_test_sent
@@ -2670,7 +2670,7 @@ msgstr "Kursiv"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Items"
-msgstr "Positionen"
+msgstr "Elemente"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_call_to_action
@@ -2870,7 +2870,7 @@ msgstr "E-Mail-Marketing: Prozess-Warteschlange"
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_mail_render_mixin
 msgid "Mail Render Mixin"
-msgstr "Mail-Rendering-Mixin"
+msgstr "Mixin für Mail-Rendering"
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_ir_mail_server
@@ -3860,7 +3860,7 @@ msgstr "Bitte geben Sie einen Namen für den Filter an"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_media_list
 msgid "Post heading"
-msgstr "Beitrag-Überschrift"
+msgstr "Beitragsüberschrift"
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_mailing__reply_to
@@ -3950,12 +3950,12 @@ msgstr "Startklar!"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mail_blacklist_view_search
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_subscription_view_search
 msgid "Reason"
-msgstr "Grund"
+msgstr "Begründung"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid "Received"
-msgstr "Empfangen"
+msgstr "Erhalten"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__received_ratio
@@ -4209,7 +4209,7 @@ msgstr "Geplant am #{record.schedule_date.value}"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_rating_options
 msgid "Score"
-msgstr "Ergebnis"
+msgstr "Punktzahl"
 
 #. module: mass_mailing
 #. odoo-python
@@ -4439,7 +4439,7 @@ msgstr "Schaukasten"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.theme_default_template
 msgid "Signature"
-msgstr "Signatur"
+msgstr "Unterschrift"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
@@ -4468,14 +4468,14 @@ msgstr "Klein"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.snippet_options
 #: model_terms:ir.ui.view,arch_db:mass_mailing.snippet_options_border_line_widgets
 msgid "Solid"
-msgstr "Voll"
+msgstr "Einheitlich"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__source_id
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_trace__source_id
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid "Source"
-msgstr "Quelle"
+msgstr "Herkunft"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_media_list
@@ -4514,7 +4514,7 @@ msgstr "Erstellen Sie Ihr erstes <b>Mailing</b>."
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_trace_report_view_search
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_trace_view_search
 msgid "State"
-msgstr "Status"
+msgstr "Bundesland"
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mail_mail__mailing_trace_ids
@@ -4540,8 +4540,8 @@ msgid ""
 msgstr ""
 "Status basierend auf Aktivitäten\n"
 "Überfällig: Fälligkeitsdatum bereits überschritten\n"
-"Heute: Aktivität ist für heute geplant\n"
-"Geplant: zukünftige Aktivitäten."
+"Heute: Aktivitätsdatum ist heute\n"
+"Geplant: anstehende Aktivitäten."
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_trace__links_click_datetime
@@ -4778,7 +4778,7 @@ msgstr "Dritte Funktion"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
 msgid "This"
-msgstr "Diese"
+msgstr "Diese(r)"
 
 #. module: mass_mailing
 #. odoo-python
@@ -4856,7 +4856,7 @@ msgstr "TikTok"
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_contact__title_id
 #: model_terms:ir.ui.view,arch_db:mass_mailing.email_designer_snippets
 msgid "Title"
-msgstr "Titel"
+msgstr "Anrede"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_rating_options
@@ -5238,9 +5238,9 @@ msgid ""
 "feature.<br/> To be successful your content needs to be useful to your "
 "readers."
 msgstr ""
-"Schreiben Sie ein oder zwei Absätze, die Produkte, Dienste oder spezifische "
-"Funktionen beschreiben.<br/> Um erfolgreich zu sein, müssen Ihre Inhalte "
-"nützlich für Ihre Leser sein."
+"Schreiben Sie ein oder zwei Absätze, die Produkte, Dienstleistungen oder "
+"spezifische Funktionen beschreiben.<br/> Um erfolgreich zu sein, müssen Ihre"
+" Inhalte nützlich für Ihre Leser sein."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_contact_import_view_form
@@ -5486,7 +5486,7 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid "on"
-msgstr "für"
+msgstr "auf"
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_mailing_mailing_schedule_date
@@ -5521,7 +5521,7 @@ msgstr "wird diese Version erhalten.<br/>"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_rating_options
 msgid "⌙ Active"
-msgstr "⌙ Aktiv"
+msgstr "Aktiv"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_rating_options

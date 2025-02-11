@@ -1,13 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* web
-# 
+#
 # Translators:
 # Friederike Fasterling-Nesselbosch, 2024
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
@@ -16,10 +16,10 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Larissa Manderfeld, 2025\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: web
@@ -484,7 +484,7 @@ msgid ""
 "class=\"oe_currency_value\">11,750.00</span></span>"
 msgstr ""
 "<span class=\"text-nowrap\"><span "
-"class=\"oe_currency_value\">11.750,00</span> $</span>"
+"class=\"oe_currency_value\">11.750,00</span> $</span>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
@@ -493,7 +493,7 @@ msgid ""
 "class=\"oe_currency_value\">7,500.00</span></span>"
 msgstr ""
 "<span class=\"text-nowrap\"><span "
-"class=\"oe_currency_value\">7.500,00</span> $</span>"
+"class=\"oe_currency_value\">7.500,00</span> $</span>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
@@ -556,7 +556,7 @@ msgid ""
 "                           <span>INV/2023/00003</span>"
 msgstr ""
 "<span>Rechnung</span>\n"
-"                           <span>RG/2023/00003</span>"
+"                           <span>INV/2023/00003</span>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
@@ -1461,7 +1461,7 @@ msgstr ""
 #: code:addons/web/static/src/views/kanban/kanban_controller.js:0
 #: code:addons/web/static/src/views/list/list_controller.js:0
 msgid "Bye-bye, record!"
-msgstr "Tschau, Datensatz!"
+msgstr "Datensatz wirklich löschen?"
 
 #. module: web
 #. odoo-javascript
@@ -1527,7 +1527,7 @@ msgstr "STRG"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/phone/phone_field.xml:0
 msgid "Call"
-msgstr "Anrufe"
+msgstr "Anruf"
 
 #. module: web
 #. odoo-javascript
@@ -1792,7 +1792,7 @@ msgstr "Unternehmen"
 #. module: web
 #: model:ir.model.fields,field_description:web.field_base_document_layout__company_details
 msgid "Company Details"
-msgstr "Angaben zum Unternehmen"
+msgstr "Unternehmensdetails"
 
 #. module: web
 #: model:ir.model,name:web.model_base_document_layout
@@ -2549,7 +2549,7 @@ msgstr "Dokumentation"
 #: code:addons/web/static/src/views/fields/domain/domain_field.xml:0
 #: code:addons/web/static/src/views/fields/properties/property_definition.xml:0
 msgid "Domain"
-msgstr "Domain"
+msgstr "Bereich"
 
 #. module: web
 #. odoo-javascript
@@ -3287,7 +3287,7 @@ msgstr "Eine App erhalten"
 #. odoo-javascript
 #: code:addons/web/static/src/views/view_dialogs/export_data_dialog.xml:0
 msgid "I want to update data (import-compatible export)"
-msgstr "Ich will Daten aktualisieren (importkompatibler Export)"
+msgstr "Ich will Daten aktualisieren (Import-kompatibler Export)"
 
 #. module: web
 #. odoo-javascript
@@ -3324,7 +3324,7 @@ msgstr "ISO-formatiertes Datum (z. B. „2018-12-31“) oder „%s“."
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/boolean_icon/boolean_icon_field.js:0
 msgid "Icon"
-msgstr "Icon"
+msgstr "Symbol"
 
 #. module: web
 #. odoo-javascript
@@ -3647,7 +3647,7 @@ msgstr "Japan"
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "Japanese"
-msgstr "japanisch"
+msgstr "Japanisch"
 
 #. module: web
 #. odoo-javascript
@@ -3833,7 +3833,7 @@ msgstr "Kanban: keine Aktion für Typ: %(type)s"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/properties/property_definition.xml:0
 msgid "Label"
-msgstr "Bezeichnung"
+msgstr "Buchungstext"
 
 #. module: web
 #. odoo-javascript
@@ -3994,7 +3994,7 @@ msgstr "Lädt …"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login
 msgid "Log in"
-msgstr "Login"
+msgstr "Anmelden"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login
@@ -4157,7 +4157,7 @@ msgstr "Werte"
 #: code:addons/web/static/src/views/fields/image_url/image_url_field.js:0
 #: code:addons/web/static/src/views/fields/signature/signature_field.js:0
 msgid "Medium"
-msgstr "Medium"
+msgstr "Mittel"
 
 #. module: web
 #. odoo-javascript
@@ -4469,7 +4469,7 @@ msgstr "Neu"
 #: code:addons/web/static/src/views/calendar/calendar_controller.js:0
 #: code:addons/web/static/src/views/calendar/quick_create/calendar_quick_create.js:0
 msgid "New Event"
-msgstr "Neue Veranstaltung"
+msgstr "Neuer Termin"
 
 #. module: web
 #. odoo-javascript
@@ -5099,7 +5099,7 @@ msgstr "Papierformat"
 #. module: web
 #: model:ir.model.fields,field_description:web.field_base_document_layout__partner_id
 msgid "Partner"
-msgstr "Partner"
+msgstr "Kunde"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login
@@ -5109,7 +5109,7 @@ msgstr "Passwort"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
 msgid "Payment Communication: <b><span>INV/2023/00003</span></b>"
-msgstr "Zahlungsmitteilung: <b><span>RG/2023/00003</span></b>"
+msgstr "Zahlungsmitteilung: <b><span>INV/2023/00003</span></b>"
 
 #. module: web
 #. odoo-javascript
@@ -5288,7 +5288,7 @@ msgstr "Vorschau des Logos"
 #: code:addons/web/static/src/core/pager/pager.xml:0
 #: code:addons/web/static/src/views/calendar/calendar_controller.xml:0
 msgid "Previous"
-msgstr "Zurück"
+msgstr "Vorherige"
 
 #. module: web
 #. odoo-javascript
@@ -5866,7 +5866,7 @@ msgstr "Skorpion"
 #: code:addons/web/static/src/views/view_dialogs/export_data_dialog.xml:0
 #: code:addons/web/static/src/webclient/settings_form_view/settings/settings_app.xml:0
 msgid "Search"
-msgstr "Suchen"
+msgstr "Suche"
 
 #. module: web
 #. odoo-javascript
@@ -6085,7 +6085,7 @@ msgstr "E-Mail versenden"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/properties/property_definition.js:0
 msgid "Separator"
-msgstr "Trennzeichen"
+msgstr "Trennlinie"
 
 #. module: web
 #. odoo-javascript
@@ -6781,7 +6781,7 @@ msgstr "Titania"
 #: code:addons/web/static/src/views/fields/gauge/gauge_field.js:0
 #: code:addons/web/static/src/views/widgets/ribbon/ribbon.js:0
 msgid "Title"
-msgstr "Bezeichnung"
+msgstr "Anrede"
 
 #. module: web
 #. odoo-javascript
@@ -7112,7 +7112,7 @@ msgstr "Hochgeladen"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/many2many_binary/many2many_binary_field.xml:0
 msgid "Uploading"
-msgstr "Lade hoch"
+msgstr "Lädt hoch"
 
 #. module: web
 #. odoo-javascript
@@ -9620,7 +9620,7 @@ msgstr "Bushaltestelle"
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "business"
-msgstr "Unternehmen"
+msgstr "-Unternehmen"
 
 #. module: web
 #. odoo-javascript
@@ -11900,7 +11900,7 @@ msgstr "Doktor"
 #. odoo-javascript
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 msgid "document"
-msgstr "Dokument"
+msgstr "Dokumente"
 
 #. module: web
 #. odoo-javascript
@@ -17767,7 +17767,7 @@ msgstr "minus"
 #. odoo-javascript
 #: code:addons/web/static/src/views/calendar/calendar_common/calendar_common_popover.js:0
 msgid "minute"
-msgstr "minute"
+msgstr "Minute"
 
 #. module: web
 #. odoo-javascript

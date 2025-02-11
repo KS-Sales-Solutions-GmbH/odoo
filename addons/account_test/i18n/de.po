@@ -62,17 +62,23 @@ msgstr "Aktiv"
 #. module: account_test
 #: model_terms:ir.ui.view,arch_db:account_test.accounting_assert_test_view_search
 msgid "Archived"
-msgstr ""
+msgstr "Archiviert"
 
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_03
 msgid "Check if movement lines are balanced and have the same date and period"
-msgstr "Überprüfung, ob der Buchungssaldo ausgeglichen ist und ob Datum und Periode übereinstimmen."
+msgstr ""
+"Überprüfung, ob der Buchungssaldo ausgeglichen ist und ob Datum und Periode "
+"übereinstimmen."
 
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_07
-msgid "Check on bank statement that the Closing Balance = Starting Balance + sum of statement lines"
-msgstr "Überprüfung, ob der Endsaldo im Bankauszug =  Startsaldo + Saldo der laufenden Buchungen"
+msgid ""
+"Check on bank statement that the Closing Balance = Starting Balance + sum of"
+" statement lines"
+msgstr ""
+"Überprüfung, ob der Endsaldo im Bankauszug =  Startsaldo + Saldo der "
+"laufenden Buchungen"
 
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_06
@@ -81,13 +87,21 @@ msgstr "Überprüfung, ob bezahlte Rechnungen nicht im Status \"Offen\" verbleib
 
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_05_2
-msgid "Check that reconciled account moves, that define Payable and Receivable accounts, are belonging to reconciled invoices"
-msgstr "Überprüfung, ob Ausgleichsbuchungen, die neue Kreditoren und Debitoren erstellen, zu offenen Rechnungen gehören."
+msgid ""
+"Check that reconciled account moves, that define Payable and Receivable "
+"accounts, are belonging to reconciled invoices"
+msgstr ""
+"Überprüfung, ob Ausgleichsbuchungen, die neue Kreditoren und Debitoren "
+"erstellen, zu offenen Rechnungen gehören."
 
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_05
-msgid "Check that reconciled invoice for Sales/Purchases has reconciled entries for Payable and Receivable Accounts"
-msgstr "Überprüfung, ob ein direkter Rechnungsausgleich im Verkauf/Einkauf zu übereinstimmenden Buchungen auf den Kreditoren- und Debitorenkonten führt."
+msgid ""
+"Check that reconciled invoice for Sales/Purchases has reconciled entries for"
+" Payable and Receivable Accounts"
+msgstr ""
+"Überprüfung, ob ein direkter Rechnungsausgleich im Verkauf/Einkauf zu "
+"übereinstimmenden Buchungen auf den Kreditoren- und Debitorenkonten führt."
 
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_01
@@ -171,7 +185,7 @@ msgstr "Zuletzt geändert am"
 #. module: account_test
 #: model:ir.model.fields,field_description:account_test.field_accounting_assert_test__write_uid
 msgid "Last Updated by"
-msgstr "Zuletzt aktualisiert durch"
+msgstr "Zuletzt aktualisiert von"
 
 #. module: account_test
 #: model:ir.model.fields,field_description:account_test.field_accounting_assert_test__write_date
@@ -186,7 +200,7 @@ msgstr ""
 #. module: account_test
 #: model_terms:ir.ui.view,arch_db:account_test.account_assert_form
 msgid "Python Code"
-msgstr "Python Code"
+msgstr "Python-Code"
 
 #. module: account_test
 #: model:ir.model.fields,field_description:account_test.field_accounting_assert_test__code_exec
@@ -201,7 +215,7 @@ msgstr ""
 #. module: account_test
 #: model:ir.model.fields,field_description:account_test.field_accounting_assert_test__sequence
 msgid "Sequence"
-msgstr "Reihenfolge"
+msgstr "Sequenz"
 
 #. module: account_test
 #: model:accounting.assert.test,name:account_test.account_test_01
@@ -215,7 +229,8 @@ msgstr "Test 3: Buchungspositionen"
 
 #. module: account_test
 #: model:accounting.assert.test,name:account_test.account_test_05
-msgid "Test 5.1 : Payable and Receivable accountant lines of reconciled invoices"
+msgid ""
+"Test 5.1 : Payable and Receivable accountant lines of reconciled invoices"
 msgstr "Test 5.1 : Kreditoren und Debitoren Buchungen der Rechnungsausgleiche"
 
 #. module: account_test

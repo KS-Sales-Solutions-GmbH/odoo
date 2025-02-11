@@ -1153,29 +1153,29 @@ msgstr "945 - nicht steuerbefreit im Inland: Besteuerungsgrundlage 7%"
 #: model:account.report.line,name:l10n_lu.account_tax_report_line_2e_2_base_16
 msgid "951 - not established or residing within the Community: base 16%"
 msgstr ""
-"951 - erbracht an den Erklärenden von Steuerpflichtigen, die nicht "
-"in der Gemeinschaft ansässig sind: Besteuerungsgrundlage 16%"
+"951 - erbracht an den Erklärenden von Steuerpflichtigen, die nicht in der "
+"Gemeinschaft ansässig sind: Besteuerungsgrundlage 16%"
 
 #. module: l10n_lu
 #: model:account.report.line,name:l10n_lu.account_tax_report_line_2e_2_base_13
 msgid "953 - not established or residing within the Community: base 13%"
 msgstr ""
-"953 - erbracht an den Erklärenden von Steuerpflichtigen, die nicht "
-"in der Gemeinschaft ansässig sind: Besteuerungsgrundlage 13%"
+"953 - erbracht an den Erklärenden von Steuerpflichtigen, die nicht in der "
+"Gemeinschaft ansässig sind: Besteuerungsgrundlage 13%"
 
 #. module: l10n_lu
 #: model:account.report.line,name:l10n_lu.account_tax_report_line_2e_2_base_7
 msgid "955 - not established or residing within the Community: base 7%"
 msgstr ""
-"955 - erbracht an den Erklärenden von Steuerpflichtigen, die nicht "
-"in der Gemeinschaft ansässig sind: Besteuerungsgrundlage 7%"
+"955 - erbracht an den Erklärenden von Steuerpflichtigen, die nicht in der "
+"Gemeinschaft ansässig sind: Besteuerungsgrundlage 7%"
 
 #. module: l10n_lu
 #: model:account.report.line,name:l10n_lu.account_tax_report_line_2e_3_base_16
 msgid "961 - suppliers established within the territory: base 16%"
 msgstr ""
-"961 - erbracht an den Erklärenden von im Inland ansässigen Steuerpflichtigen: "
-"Besteuerungsgrundlage 16%"
+"961 - erbracht an den Erklärenden von im Inland ansässigen "
+"Steuerpflichtigen: Besteuerungsgrundlage 16%"
 
 #. module: l10n_lu
 #: model:account.report.line,name:l10n_lu.account_tax_report_line_2f_supply_goods_base_7
@@ -1296,27 +1296,28 @@ msgstr "946 - nicht steuerbefreit im Inland: MwSt. 7%"
 #: model:account.report.line,name:l10n_lu.account_tax_report_line_2e_2_tax_16
 msgid "952 - not established or residing within the Community: tax 16%"
 msgstr ""
-"952 - erbracht an den Erklärenden von Steuerpflichtigen, die nicht "
-"in der Gemeinschaft ansässig sind: MwSt. 16%"
+"952 - erbracht an den Erklärenden von Steuerpflichtigen, die nicht in der "
+"Gemeinschaft ansässig sind: MwSt. 16%"
 
 #. module: l10n_lu
 #: model:account.report.line,name:l10n_lu.account_tax_report_line_2e_2_tax_13
 msgid "954 - not established or residing within the Community: tax 13%"
 msgstr ""
-"954 - erbracht an den Erklärenden von Steuerpflichtigen, die nicht "
-"in der Gemeinschaft ansässig sind: MwSt. 13%"
+"954 - erbracht an den Erklärenden von Steuerpflichtigen, die nicht in der "
+"Gemeinschaft ansässig sind: MwSt. 13%"
 
 #. module: l10n_lu
 #: model:account.report.line,name:l10n_lu.account_tax_report_line_2e_2_tax_7
 msgid "956 - not established or residing within the Community: tax 7%"
 msgstr ""
-"956 - erbracht an den Erklärenden von Steuerpflichtigen, die nicht "
-"in der Gemeinschaft ansässig sind: MwSt. 7%"
+"956 - erbracht an den Erklärenden von Steuerpflichtigen, die nicht in der "
+"Gemeinschaft ansässig sind: MwSt. 7%"
 
 #. module: l10n_lu
 #: model:account.report.line,name:l10n_lu.account_tax_report_line_2e_3_tax_16
 msgid "962 - suppliers established within the territory: tax 16%"
-msgstr "962 - erbracht an den Erklärenden von im Inland ansässigen "
+msgstr ""
+"962 - erbracht an den Erklärenden von im Inland ansässigen "
 "Steuerpflichtigen: MwSt. 16%"
 
 #. module: l10n_lu
@@ -1347,4 +1348,4 @@ msgstr "IV. BERECHNUNG DES ÜBERSCHUSSES"
 #. module: l10n_lu
 #: model:ir.ui.menu,name:l10n_lu.account_reports_lu_statements_menu
 msgid "Luxembourg"
-msgstr ""
+msgstr "Luxemburg"

@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* delivery_stock_picking_batch
-# 
+#
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2025\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: delivery_stock_picking_batch
@@ -57,7 +57,7 @@ msgstr "Kommissionierart"
 #. module: delivery_stock_picking_batch
 #: model:ir.model,name:delivery_stock_picking_batch.model_stock_picking
 msgid "Transfer"
-msgstr "Transfer"
+msgstr "Übertragung"
 
 #. module: delivery_stock_picking_batch
 #: model:ir.model.fields,field_description:delivery_stock_picking_batch.field_stock_picking_type__weight_uom_name

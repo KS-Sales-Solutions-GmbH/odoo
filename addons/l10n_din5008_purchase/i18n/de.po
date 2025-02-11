@@ -49,7 +49,7 @@ msgstr "Incoterm:"
 #: model_terms:ir.ui.view,arch_db:l10n_din5008_purchase.report_common_purchase_din5008_template
 #: model_terms:ir.ui.view,arch_db:l10n_din5008_purchase.report_common_purchase_din5008_template_document_information
 msgid "Order Date:"
-msgstr "Bestelldatum:"
+msgstr "Datum der Bestellung:"
 
 #. module: l10n_din5008_purchase
 #: model_terms:ir.ui.view,arch_db:l10n_din5008_purchase.report_purchaseorder_document

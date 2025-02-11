@@ -82,16 +82,14 @@ msgid ""
 ";\n"
 "                            }\n"
 "                            .page {\n"
-"                                [name=invoice_line_table], "
-"[name=stock_move_table], .o_main_table {\n"
+"                                [name=invoice_line_table], [name=stock_move_table], .o_main_table {\n"
 "                                    th {\n"
 "                                        color:"
 msgstr ""
 ";\n"
 "                            }\n"
 "                            .page {\n"
-"                                [name=invoice_line_table], "
-"[name=stock_move_table], .o_main_table {\n"
+"                                [name=invoice_line_table], [name=stock_move_table], .o_main_table {\n"
 "                                    th {\n"
 "                                        color:"
 
@@ -133,7 +131,7 @@ msgstr "Banken"
 #. module: l10n_din5008
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
 msgid "Cancelled Invoice"
-msgstr "Stornierte Rechnung"
+msgstr "Stornorechnung"
 
 #. module: l10n_din5008
 #: model:ir.model.fields,field_description:l10n_din5008.field_base_document_layout__city
@@ -148,7 +146,7 @@ msgstr "Unternehmensdetails"
 #. module: l10n_din5008
 #: model:ir.model,name:l10n_din5008.model_base_document_layout
 msgid "Company Document Layout"
-msgstr "Dokumentlayout des Unternehmens"
+msgstr "Dokumentenlayout des Unternehmens"
 
 #. module: l10n_din5008
 #: model:ir.model.fields,field_description:l10n_din5008.field_base_document_layout__company_registry
@@ -163,7 +161,7 @@ msgstr "Gutschrift"
 #. module: l10n_din5008
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
 msgid "Delivery Date"
-msgstr "Lieferdatum"
+msgstr "Liefertermin"
 
 #. module: l10n_din5008
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_wizard_preview
@@ -214,7 +212,7 @@ msgstr "INV/"
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.external_layout_din5008
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
 msgid "Invoice"
-msgstr "Rechnung"
+msgstr "Ausgangsrechnung"
 
 #. module: l10n_din5008
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
@@ -234,7 +232,7 @@ msgstr "Rechnungsdatum:"
 #. module: l10n_din5008
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
 msgid "Invoice No."
-msgstr "Rechnungsnr."
+msgstr "Rechnungsnr"
 
 #. module: l10n_din5008
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_wizard_preview
@@ -284,7 +282,7 @@ msgstr "SO/2021/45678"
 #. module: l10n_din5008
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.report_invoice_document
 msgid "Source"
-msgstr "Verweis"
+msgstr "Herkunft"
 
 #. module: l10n_din5008
 #: model:ir.model.fields,field_description:l10n_din5008.field_base_document_layout__street
@@ -294,7 +292,7 @@ msgstr "Straße"
 #. module: l10n_din5008
 #: model:ir.model.fields,field_description:l10n_din5008.field_base_document_layout__street2
 msgid "Street2"
-msgstr "Straße 2"
+msgstr "Straße2"
 
 #. module: l10n_din5008
 #: model_terms:ir.ui.view,arch_db:l10n_din5008.external_layout_din5008
@@ -307,7 +305,8 @@ msgstr "USt-IdNr."
 #: model:ir.model.fields,help:l10n_din5008.field_base_document_layout__account_fiscal_country_id
 msgid "The country to use the tax reports from for this company"
 msgstr ""
-"Das Land, aus dem die Steuerberichte für dieses Unternehmen zu verwenden sind"
+"Das Land, aus dem die Steuerberichte für dieses Unternehmen zu verwenden "
+"sind"
 
 #. module: l10n_din5008
 #: model:ir.model.fields,help:l10n_din5008.field_base_document_layout__company_registry
@@ -315,7 +314,7 @@ msgid ""
 "The registry number of the company. Use it if it is different from the Tax "
 "ID. It must be unique across all partners of a same country"
 msgstr ""
-"Die Registernummer des Unternehmens. Verwenden Sie diese, wenn sie sich von "
+"Die Registernummer des Unternehmens. Verwenden Sie sie, wenn sie sich von "
 "der USt-IdNr. unterscheidet. Sie muss für alle Partner desselben Landes "
 "eindeutig sein."
 
@@ -332,4 +331,4 @@ msgstr "Lieferantengutschrift"
 #. module: l10n_din5008
 #: model:ir.model.fields,field_description:l10n_din5008.field_base_document_layout__zip
 msgid "Zip"
-msgstr "Postleitzahl"
+msgstr "PLZ"

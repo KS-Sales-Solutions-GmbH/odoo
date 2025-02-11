@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* web_editor
-# 
+#
 # Translators:
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
@@ -15,10 +15,10 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Larissa Manderfeld, 2024\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: web_editor
@@ -541,7 +541,7 @@ msgstr "Block"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
 msgid "Block &amp; Rainy"
-msgstr "Blöcke & Regnerisch"
+msgstr "Blöcke &amp; Regnerisch"
 
 #. module: web_editor
 #. odoo-javascript
@@ -574,7 +574,7 @@ msgstr "Rand"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Border Color"
-msgstr "Randfarbe"
+msgstr "Rahmenfarbe"
 
 #. module: web_editor
 #. odoo-javascript
@@ -586,7 +586,7 @@ msgstr "Umrandungsstil"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Border Width"
-msgstr "Randbreite"
+msgstr "Rahmenbreite"
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
@@ -1171,7 +1171,7 @@ msgstr "Erstes Panel"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Flat"
-msgstr "Flach"
+msgstr "Ebene"
 
 #. module: web_editor
 #. odoo-javascript
@@ -1688,7 +1688,7 @@ msgstr "Rechts einfügen"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Insert your signature"
-msgstr "Ihre Signatur einfügen"
+msgstr "Ihre Unterschrift einfügen"
 
 #. module: web_editor
 #. odoo-javascript
@@ -1725,7 +1725,7 @@ msgstr "Element"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Label"
-msgstr "Bezeichnung"
+msgstr "Buchungstext"
 
 #. module: web_editor
 #. odoo-javascript
@@ -2005,7 +2005,7 @@ msgstr "Nummerierte Liste"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.tests
 msgid "Odoo Editor Tests"
-msgstr "Odoo-Editor-Tests"
+msgstr "Editor-Tests"
 
 #. module: web_editor
 #. odoo-javascript
@@ -2575,7 +2575,7 @@ msgstr "Auf Mobilgerät anzeigen/verbergen"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Signature"
-msgstr "Signatur"
+msgstr "Unterschrift"
 
 #. module: web_editor
 #. odoo-javascript
@@ -2641,7 +2641,7 @@ msgstr "Snippets"
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Solid"
-msgstr "Voll"
+msgstr "Einheitlich"
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
@@ -2729,7 +2729,7 @@ msgstr "Textausrichtung ändern."
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Table"
-msgstr "Tabelle"
+msgstr "Tisch"
 
 #. module: web_editor
 #. odoo-javascript
@@ -2907,7 +2907,7 @@ msgstr "Tipp: ESC für Vorschau"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Title"
-msgstr "Titel"
+msgstr "Anrede"
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
@@ -3423,7 +3423,7 @@ msgstr "klein"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "to"
-msgstr "in"
+msgstr "bis"
 
 #. module: web_editor
 #. odoo-javascript

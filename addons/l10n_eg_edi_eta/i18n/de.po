@@ -29,7 +29,7 @@ msgstr ""
 #. module: l10n_eg_edi_eta
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_thumb_drive__access_token
 msgid "Access Token"
-msgstr "Zugriffs-Token"
+msgstr "Zugriffstoken"
 
 #. module: l10n_eg_edi_eta
 #: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6920
@@ -415,8 +415,8 @@ msgstr ""
 #. module: l10n_eg_edi_eta
 #: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6202
 msgid ""
-"Computer consultancy experience and facilities management activities related "
-"to computer fields"
+"Computer consultancy experience and facilities management activities related"
+" to computer fields"
 msgstr ""
 
 #. module: l10n_eg_edi_eta
@@ -459,14 +459,14 @@ msgstr "Land"
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_thumb_drive__create_uid
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_uom_code__create_uid
 msgid "Created by"
-msgstr "Angelegt von"
+msgstr "Erstellt von"
 
 #. module: l10n_eg_edi_eta
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_activity_type__create_date
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_thumb_drive__create_date
 #: model:ir.model.fields,field_description:l10n_eg_edi_eta.field_l10n_eg_edi_uom_code__create_date
 msgid "Created on"
-msgstr "Angelegt am"
+msgstr "Erstellt am"
 
 #. module: l10n_eg_edi_eta
 #: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9000
@@ -475,7 +475,8 @@ msgstr ""
 
 #. module: l10n_eg_edi_eta
 #: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6430
-msgid "Credit activities, provision of credits, and similar financial entities"
+msgid ""
+"Credit activities, provision of credits, and similar financial entities"
 msgstr ""
 
 #. module: l10n_eg_edi_eta
@@ -520,7 +521,8 @@ msgstr ""
 
 #. module: l10n_eg_edi_eta
 #: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_0111
-msgid "Cultivation of grains and crops (except for rice), legumes and oilseeds"
+msgid ""
+"Cultivation of grains and crops (except for rice), legumes and oilseeds"
 msgstr ""
 
 #. module: l10n_eg_edi_eta
@@ -1211,7 +1213,7 @@ msgstr "Journal"
 #. module: l10n_eg_edi_eta
 #: model:ir.model,name:l10n_eg_edi_eta.model_account_move
 msgid "Journal Entry"
-msgstr "Journaleintrag"
+msgstr "Journalbuchung"
 
 #. module: l10n_eg_edi_eta
 #: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5210
@@ -1299,7 +1301,7 @@ msgstr ""
 #. module: l10n_eg_edi_eta
 #: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_LVL
 msgid "Level"
-msgstr "Level"
+msgstr "Ebene"
 
 #. module: l10n_eg_edi_eta
 #: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_9101
@@ -1380,7 +1382,8 @@ msgstr ""
 #. module: l10n_eg_edi_eta
 #: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_1622
 msgid ""
-"Manufacture of carpentry accessories intended for buildings and installations"
+"Manufacture of carpentry accessories intended for buildings and "
+"installations"
 msgstr ""
 
 #. module: l10n_eg_edi_eta
@@ -1480,8 +1483,8 @@ msgstr ""
 #. module: l10n_eg_edi_eta
 #: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2920
 msgid ""
-"Manufacture of motor vehicle bodies and the manufacture of trailers and semi-"
-"trailers"
+"Manufacture of motor vehicle bodies and the manufacture of trailers and "
+"semi-trailers"
 msgstr ""
 
 #. module: l10n_eg_edi_eta
@@ -1530,7 +1533,8 @@ msgstr ""
 
 #. module: l10n_eg_edi_eta
 #: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_2599
-msgid "Manufacture of other fabricated metal products not classified elsewhere"
+msgid ""
+"Manufacture of other fabricated metal products not classified elsewhere"
 msgstr ""
 
 #. module: l10n_eg_edi_eta
@@ -1612,8 +1616,8 @@ msgstr ""
 #. module: l10n_eg_edi_eta
 #: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_3520
 msgid ""
-"Manufacture of sulfur gas and distribution of gaseous fuels by means of main "
-"pipes"
+"Manufacture of sulfur gas and distribution of gaseous fuels by means of main"
+" pipes"
 msgstr ""
 
 #. module: l10n_eg_edi_eta
@@ -1757,10 +1761,10 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/l10n_eg_edi_eta/static/src/client_action/sign_invoice.js:0
 msgid ""
-"Missing Dependency - If you are using Windows, make sure eps2003csp11.dll is "
-"correctly installed. You can download it here: https://www.egypttrust.com/en/"
-"downloads/other-drivers. If you are using Linux or macOS, please install "
-"OpenSC"
+"Missing Dependency - If you are using Windows, make sure eps2003csp11.dll is"
+" correctly installed. You can download it here: "
+"https://www.egypttrust.com/en/downloads/other-drivers. If you are using "
+"Linux or macOS, please install OpenSC"
 msgstr ""
 
 #. module: l10n_eg_edi_eta
@@ -1790,8 +1794,8 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/l10n_eg_edi_eta/static/src/client_action/sign_invoice.js:0
 msgid ""
-"Multiple drive detected - Only one secure thumb drive can be inserted at the "
-"same time"
+"Multiple drive detected - Only one secure thumb drive can be inserted at the"
+" same time"
 msgstr ""
 
 #. module: l10n_eg_edi_eta
@@ -2178,8 +2182,7 @@ msgstr ""
 #: code:addons/l10n_eg_edi_eta/models/res_currency_rate.py:0
 msgid ""
 "Please make sure that the EGP per unit is within 5 decimal accuracy.\n"
-"Higher decimal accuracy might lead to inconsistency with the ETA invoicing "
-"portal!"
+"Higher decimal accuracy might lead to inconsistency with the ETA invoicing portal!"
 msgstr ""
 
 #. module: l10n_eg_edi_eta
@@ -2284,17 +2287,17 @@ msgstr ""
 #. module: l10n_eg_edi_eta
 #: model:ir.model,name:l10n_eg_edi_eta.model_product_template
 msgid "Product"
-msgstr "Produkte"
+msgstr "Produkt"
 
 #. module: l10n_eg_edi_eta
 #: model:ir.model,name:l10n_eg_edi_eta.model_uom_uom
 msgid "Product Unit of Measure"
-msgstr "Produkteinheit"
+msgstr "Maßeinheit des Produkts"
 
 #. module: l10n_eg_edi_eta
 #: model:ir.model,name:l10n_eg_edi_eta.model_product_product
 msgid "Product Variant"
-msgstr ""
+msgstr "Produktvariante"
 
 #. module: l10n_eg_edi_eta
 #: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_5920
@@ -3176,7 +3179,8 @@ msgstr ""
 
 #. module: l10n_eg_edi_eta
 #: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4651
-msgid "Wholesale trade of computer hardware, accessories and computer software"
+msgid ""
+"Wholesale trade of computer hardware, accessories and computer software"
 msgstr ""
 
 #. module: l10n_eg_edi_eta
@@ -3187,7 +3191,8 @@ msgstr ""
 #. module: l10n_eg_edi_eta
 #: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_4652
 msgid ""
-"Wholesale trade of electronic devices, communications devices and accessories"
+"Wholesale trade of electronic devices, communications devices and "
+"accessories"
 msgstr ""
 
 #. module: l10n_eg_edi_eta
@@ -3315,7 +3320,7 @@ msgstr ""
 #. module: l10n_eg_edi_eta
 #: model:l10n_eg_edi.uom.code,name:l10n_eg_edi_eta.l10n_eg_edi_uom_code_PMP
 msgid "pump"
-msgstr ""
+msgstr "Pumpe"
 
 #. module: l10n_eg_edi_eta
 #: model:l10n_eg_edi.activity.type,name:l10n_eg_edi_eta.l10n_eg_activity_type_6520

@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* stock
-# 
+#
 # Translators:
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
@@ -15,10 +15,10 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Larissa Manderfeld, 2024\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: stock
@@ -431,7 +431,7 @@ msgstr "2021-9-01"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_package_barcode_small
 msgid "2023-01-01"
-msgstr "2023-01-01"
+msgstr "01-01-2023"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
@@ -1703,7 +1703,7 @@ msgstr "Nächste Bewegung abbrechen"
 #: model:ir.model.fields.selection,name:stock.selection__stock_package_level__state__cancel
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking__state__cancel
 msgid "Cancelled"
-msgstr "Abgebrochen"
+msgstr "Storniert"
 
 #. module: stock
 #. odoo-python
@@ -2088,7 +2088,7 @@ msgstr "Kontakt"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location__child_ids
 msgid "Contains"
-msgstr "Beinhaltet"
+msgstr "Enthält"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_quant_package_form
@@ -2104,7 +2104,7 @@ msgstr "Inhalte"
 #: model_terms:ir.ui.view,arch_db:stock.inventory_warning_reset_view
 #: model_terms:ir.ui.view,arch_db:stock.inventory_warning_set_view
 msgid "Continue"
-msgstr "Fortfahren"
+msgstr "Fortsetzen"
 
 #. module: stock
 #. odoo-javascript
@@ -2806,7 +2806,7 @@ msgstr "Gelieferte Menge"
 #: model:ir.ui.menu,name:stock.out_picking
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "Deliveries"
-msgstr "Auslieferungen"
+msgstr "Lieferungen"
 
 #. module: stock
 #. odoo-javascript
@@ -3975,7 +3975,7 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:stock.field_stock_lot__activity_exception_icon
 #: model:ir.model.fields,field_description:stock.field_stock_picking__activity_exception_icon
 msgid "Icon"
-msgstr "Icon"
+msgstr "Symbol"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_lot__activity_exception_icon
@@ -4424,7 +4424,7 @@ msgstr "Interne Referenz"
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__code__internal
 msgid "Internal Transfer"
-msgstr "Interner Transfer"
+msgstr "Interne Überweisungen"
 
 #. module: stock
 #. odoo-python
@@ -4432,7 +4432,7 @@ msgstr "Interner Transfer"
 #: model:ir.actions.act_window,name:stock.action_picking_tree_internal
 #: model:stock.picking.type,name:stock.picking_type_internal
 msgid "Internal Transfers"
-msgstr "Interne Transfers"
+msgstr "Interne Überweisungen"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_company__internal_transit_location_id
@@ -5068,7 +5068,7 @@ msgstr "Listenansicht der Vorgänge"
 #: model_terms:ir.ui.view,arch_db:stock.view_move_search
 #: model_terms:ir.ui.view,arch_db:stock.warehouse_orderpoint_search
 msgid "Location"
-msgstr "Lagerort"
+msgstr "Ort"
 
 #. module: stock
 #: model:ir.actions.report,name:stock.action_report_location_barcode
@@ -5431,7 +5431,7 @@ msgstr "Mitteilung für Bestandskommissionierung"
 #: model:ir.model.fields,field_description:stock.field_stock_picking__message_ids
 #: model:ir.model.fields,field_description:stock.field_stock_scrap__message_ids
 msgid "Messages"
-msgstr "Mitteilungen"
+msgstr "Nachrichten"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_removal__method
@@ -5464,7 +5464,7 @@ msgstr "Mindestbestandsregeln"
 #: model:ir.model.fields,field_description:stock.field_stock_return_picking_line__move_id
 #: model:ir.model.fields,field_description:stock.field_stock_scrap__move_ids
 msgid "Move"
-msgstr "Bewegung"
+msgstr "Buchung"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_move_operations
@@ -6149,7 +6149,7 @@ msgstr "Optionen"
 #: model_terms:ir.ui.view,arch_db:stock.replenishment_option_warning_view
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse_orderpoint_tree_editable
 msgid "Order"
-msgstr "Bestellen"
+msgstr "Auftrag"
 
 #. module: stock
 #. odoo-javascript
@@ -6167,7 +6167,7 @@ msgstr "Auftrag unterschrieben"
 #. odoo-python
 #: code:addons/stock/models/stock_picking.py:0
 msgid "Order signed by %s"
-msgstr "Auftrag unterschrieben von %s"
+msgstr "Auftrag wurde unterschrieben von %s"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
@@ -6183,7 +6183,7 @@ msgstr "Beschaffungspunkt"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_move_form
 msgid "Origin"
-msgstr "Herkunft"
+msgstr "Ursprung"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_move_form
@@ -6240,7 +6240,7 @@ msgstr "Auslieferung"
 #: model_terms:ir.ui.view,arch_db:stock.stock_move_line_view_search
 #: model_terms:ir.ui.view,arch_db:stock.view_move_search
 msgid "Outgoing"
-msgstr "Ausgang"
+msgstr "Ausgehend"
 
 #. module: stock
 #. odoo-javascript
@@ -6283,7 +6283,7 @@ msgstr "Übersicht"
 #: model_terms:ir.ui.view,arch_db:stock.stock_move_line_view_search
 #: model_terms:ir.ui.view,arch_db:stock.view_move_line_form
 msgid "Owner"
-msgstr "Eigentümer"
+msgstr "Besitzer"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__restrict_partner_id
@@ -6345,7 +6345,7 @@ msgstr "Verpackungstyp"
 #: model_terms:ir.ui.view,arch_db:stock.view_quant_package_form
 #: model_terms:ir.ui.view,arch_db:stock.view_quant_package_tree
 msgid "Package"
-msgstr "Paket"
+msgstr "Kontenrahmen"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
@@ -6570,7 +6570,7 @@ msgstr "Teilweise verfügbar"
 #: model:ir.model.fields,field_description:stock.field_stock_lot_report__partner_id
 #: model_terms:ir.ui.view,arch_db:stock.view_move_search
 msgid "Partner"
-msgstr "Partner"
+msgstr "Kunde"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_rule__partner_address_id
@@ -7504,7 +7504,7 @@ msgstr "Tatsächliche Menge"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_reception_body
 msgid "Reason"
-msgstr "Grund"
+msgstr "Begründung"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_quant_relocate__message
@@ -8657,7 +8657,7 @@ msgstr "E-Signatur"
 #: model:ir.model.fields,field_description:stock.field_stock_picking__signature
 #: model:ir.model.fields,help:stock.field_stock_picking__signature
 msgid "Signature"
-msgstr "Signatur"
+msgstr "Unterschrift"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.vpicktree
@@ -8713,7 +8713,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__origin
 msgid "Source"
-msgstr "Quelle"
+msgstr "Herkunft"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__origin
@@ -8788,7 +8788,7 @@ msgstr "Starshipit-Konnektor"
 #: model:ir.model.fields,field_description:stock.field_report_stock_quantity__state
 #: model:ir.model.fields,field_description:stock.field_stock_package_level__state
 msgid "State"
-msgstr "Status"
+msgstr "Bundesland"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__state
@@ -9266,7 +9266,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_package_type__sequence
 msgid "The first in the sequence is the default one."
-msgstr "Der Erste der Sequenz gilt als Standard."
+msgstr "Der Erste der Reihenfolge gilt als Standard."
 
 #. module: stock
 #. odoo-python
@@ -10093,7 +10093,7 @@ msgstr "Verfolgungszeile"
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "Transfer"
-msgstr "Transfer"
+msgstr "Übertragung"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_production_lot_tree
@@ -10496,7 +10496,7 @@ msgstr "Inventur validieren"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_change_product_qty__product_variant_count
 msgid "Variant Count"
-msgstr "Anzahl Varianten"
+msgstr "Variantenanzahl"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_location_search

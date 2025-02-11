@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* pos_online_payment
-# 
+#
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2024\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: pos_online_payment
@@ -392,8 +392,8 @@ msgstr "Der Zahlungsanbieter ist ungültig."
 msgid ""
 "The payment should either be direct, with redirection, or made by a token."
 msgstr ""
-"Die Zahlung sollte entweder direkt, mit Umleitung oder durch ein Token "
-"erfolgen."
+"Die Zahlung sollte entweder direkt, mit Weiterleitung oder mittels eines "
+"Tokens erfolgen."
 
 #. module: pos_online_payment
 #. odoo-python
@@ -479,7 +479,7 @@ msgstr "Für diesen Auftrag gibt es keine ausstehenden Zahlungen."
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay
 msgid "There is nothing to pay."
-msgstr "Es gibt keine ausstehenden Zahlungen."
+msgstr "Es gibt keine offenen Zahlungen."
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay

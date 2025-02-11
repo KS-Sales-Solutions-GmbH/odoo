@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* project
-# 
+#
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2024\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: project
@@ -1338,7 +1338,7 @@ msgstr "Burndown-Diagramm"
 #: model:project.task.type,name:project.project_personal_stage_demo_6
 #: model:project.task.type,name:project.project_stage_3
 msgid "Cancelled"
-msgstr "Abgebrochen"
+msgstr "Storniert"
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__state__02_changes_requested
@@ -1934,7 +1934,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/project/static/src/views/project_task_kanban/project_task_kanban_examples.js:0
 msgid "Delivered"
-msgstr "Geliefert"
+msgstr "Zugestellt"
 
 #. module: project
 #. odoo-python
@@ -2045,7 +2045,7 @@ msgstr "Die Teilaufgabe in Ihrer Pipeline anzeigen"
 msgid "Do not have access, skip this data for user's digest email"
 msgstr ""
 "Keine Zugriffsberechtigung, überspringen dieser Daten für die E-Mail-"
-"Übersicht des Benutzers"
+"Übersicht des Benutzers."
 
 #. module: project
 #. odoo-javascript
@@ -2151,7 +2151,7 @@ msgstr "E-Mail-CC"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_domain
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
-msgstr "E-Mail-Domain z. B. 'beispiel.com' in 'odoo@beispiel.com'"
+msgstr "E-Mail-Domain z. B. 'example.com' in ‚ks@sales-solutions.de‘"
 
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_1
@@ -2444,7 +2444,7 @@ msgstr "Metadaten des Verlaufs"
 #. module: project
 #: model:project.tags,name:project.project_tags_13
 msgid "Home"
-msgstr "Home"
+msgstr "Zuhause"
 
 #. module: project
 #: model:account.analytic.account,name:project.analytic_construction
@@ -2500,7 +2500,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task__activity_exception_icon
 #: model:ir.model.fields,field_description:project.field_project_update__activity_exception_icon
 msgid "Icon"
-msgstr "Icon"
+msgstr "Symbol"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__activity_exception_icon
@@ -2608,7 +2608,7 @@ msgstr "In Entwicklung"
 #: model:project.task.type,name:project.project_personal_stage_admin_0
 #: model:project.task.type,name:project.project_personal_stage_demo_0
 msgid "Inbox"
-msgstr "Eingang"
+msgstr "Posteingang"
 
 #. module: project
 #: model:project.tags,name:project.project_tags_09
@@ -3313,7 +3313,7 @@ msgstr "Anzahl der Nachrichten, die eine Aktion erfordern"
 #: model:ir.model.fields,help:project.field_project_task__message_has_error_counter
 #: model:ir.model.fields,help:project.field_project_update__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Anzahl der Nachrichten mit Zustellungsfehler"
+msgstr "Anzahl der Nachrichten mit Zustellungsfehler."
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_project__last_update_status__off_track
@@ -3619,7 +3619,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_pager.xml:0
 msgid "Previous"
-msgstr "Zurück"
+msgstr "Vorherige"
 
 #. module: project
 #. odoo-javascript
@@ -4069,7 +4069,7 @@ msgstr "Wiederholung"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__recurring_task
 msgid "Recurrent"
-msgstr "Wiederkehrend"
+msgstr "Wiederholend"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_layout
@@ -4334,7 +4334,7 @@ msgstr "Einladung senden"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type__sequence
 msgid "Sequence"
-msgstr "Reihenfolge"
+msgstr "Sequenz"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
@@ -4562,7 +4562,7 @@ msgstr "Startdatum"
 #: model:ir.model.fields,field_description:project.field_project_task_burndown_chart_report__state
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__state
 msgid "State"
-msgstr "Status"
+msgstr "Bundesland"
 
 #. module: project
 #. odoo-javascript
@@ -4932,10 +4932,9 @@ msgid ""
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Das Modell (Odoo-Dokumentart), auf das sich der Alias bezieht. Alle "
-"eingehenden E-Mails ohne Bezug zu einer bereits vorhandenen E-Mail führen "
-"üblicherweise zur Erstellung eines neuen Datensatz dieses Modells (z. B. "
-"Projektaufgabe)."
+"Das Modell (Dokumentart), auf das sich der Alias bezieht. Alle eingehenden "
+"E-Mails ohne Bezug zu einer bereits vorhandenen E-Mail führen üblicherweise "
+"zur Erstellung eines neuen Datensatz dieses Modells (z. B. Projektaufgabe)."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_name
@@ -4944,7 +4943,7 @@ msgid ""
 "<jobs@example.odoo.com>"
 msgstr ""
 "Die Bezeichnung des E-Mail-Alias, z. B. „Jobs“, falls Sie E-Mails für "
-"<jobs@beispiel.odoo.com> erhalten möchten"
+"<jobs@example.ks.de> erhalten möchten"
 
 #. module: project
 #. odoo-python
@@ -5243,7 +5242,7 @@ msgstr "Hinweis: Ihre eigene persönliche Kanban-Ansicht"
 #: model:ir.model.fields,field_description:project.field_project_update__name
 #: model_terms:ir.ui.view,arch_db:project.project_task_view_tree_main_base
 msgid "Title"
-msgstr "Titel"
+msgstr "Anrede"
 
 #. module: project
 #. odoo-javascript
@@ -5685,7 +5684,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_composer.xml:0
 msgid "Write a message..."
-msgstr "Schreiben Sie eine Nachricht..."
+msgstr "Schreiben Sie eine Nachricht ..."
 
 #. module: project
 #. odoo-javascript
@@ -5790,12 +5789,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/project/models/project_task.py:0
 msgid "You have been assigned to %s"
-msgstr "Sie wurden zugewiesen für %s"
+msgstr "Sie wurden %s zugewiesen"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_message_user_assigned
 msgid "You have been assigned to the"
-msgstr "Ihnen wurde folgende Aufgabe zugewiesen:"
+msgstr "Sie wurden zugewiesen an"
 
 #. module: project
 #. odoo-python
@@ -5967,7 +5966,7 @@ msgstr "."
 #. odoo-javascript
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_composer.xml:0
 msgid "logged in"
-msgstr "angemeldet sein,"
+msgstr "angemeldet sein"
 
 #. module: project
 #: model:ir.actions.server,name:project.action_server_view_my_task
@@ -6061,7 +6060,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/project/static/src/project_sharing/components/chatter/chatter_composer.xml:0
 msgid "to post a comment."
-msgstr "um einen Kommentar zu hinterlassen."
+msgstr ", um einen Kommentar zu hinterlassen."
 
 #. module: project
 #. odoo-javascript

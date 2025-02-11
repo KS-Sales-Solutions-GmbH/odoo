@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* hr_recruitment
-# 
+#
 # Translators:
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
@@ -15,10 +15,10 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2025\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: hr_recruitment
@@ -861,7 +861,7 @@ msgstr ""
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.view_hr_job_kanban
 msgid "Application"
-msgstr "Bewerbung"
+msgstr "Anwendung"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_candidate__application_count
@@ -983,7 +983,7 @@ msgstr "Autor"
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__availability
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_candidate__availability
 msgid "Availability"
-msgstr "Frühestes Eintrittsdatum"
+msgstr "Verfügbarkeit"
 
 #. module: hr_recruitment
 #: model:hr.recruitment.degree,name:hr_recruitment.degree_bachelor
@@ -1003,7 +1003,7 @@ msgstr "Telefon auf der schwarzen Liste ist Mobiltelefon"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_candidate__phone_blacklisted
 msgid "Blacklisted Phone is Phone"
-msgstr "Telefon auf der schwarzen Liste Ist Festnetz"
+msgstr "Telefon auf der schwarzen Liste ist Festnetz"
 
 #. module: hr_recruitment
 #. odoo-python
@@ -1027,7 +1027,7 @@ msgstr "Textinhalt ist derselbe wie die Vorlage"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_candidate__message_bounce
 msgid "Bounce"
-msgstr "Hüpfend"
+msgstr "Unzustellbar"
 
 #. module: hr_recruitment
 #: model:ir.ui.menu,name:hr_recruitment.menu_hr_job_position
@@ -1305,7 +1305,7 @@ msgstr "Enddatum"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__day_close
 msgid "Days to Close"
-msgstr "Tage bis Beendigung"
+msgstr "Tage bis Abschluss"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__day_open
@@ -1505,7 +1505,7 @@ msgstr ""
 #. module: hr_recruitment
 #: model:hr.applicant.refuse.reason,name:hr_recruitment.refuse_reason_6
 msgid "Duplicate"
-msgstr "Duplikat"
+msgstr "Duplizieren"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_applicant_get_refuse_reason__duplicates
@@ -1558,7 +1558,7 @@ msgstr "E-Mail-CC"
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_domain
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
-msgstr "E-Mail-Domain z. B. 'beispiel.com' in 'odoo@beispiel.com'"
+msgstr "E-Mail-Domain z. B. 'example.com' in ‚ks@sales-solutions.de‘"
 
 #. module: hr_recruitment
 #. odoo-python
@@ -1663,7 +1663,7 @@ msgid ""
 "Field used to store sanitized phone number. Helps speeding up searches and "
 "comparisons."
 msgstr ""
-"Feld zum Speichern der bereinigten Telefonnummer. Hilft, die Suche und den "
+"Feld zum Speichern der bereinigten Rufnummer. Hilft, die Suche und den "
 "Vergleich zu beschleunigen."
 
 #. module: hr_recruitment
@@ -1841,7 +1841,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__activity_exception_icon
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_candidate__activity_exception_icon
 msgid "Icon"
-msgstr "Icon"
+msgstr "Symbol"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_applicant__activity_exception_icon
@@ -1962,7 +1962,7 @@ msgid ""
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
 msgstr ""
-"Zeigt an, ob eine bereinigte Rufnummer auf der schwarzen Liste eine "
+"Zeigt an, ob eine bereinigte Telefonnummer auf der schwarzen Liste eine "
 "Mobilfunknummer ist. Hilft bei der Unterscheidung, welche Nummer auf der "
 "schwarzen Liste steht, wenn es in einem Modell sowohl ein Handy- als auch "
 "ein Telefonfeld gibt."
@@ -1974,10 +1974,10 @@ msgid ""
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
 msgstr ""
-"Zeigt an, ob eine bereinigte Rufnummer auf der schwarzen Liste eine "
-"Teleofnnummer ist. Hilft bei der Unterscheidung, welche Nummer auf der "
-"schwarzen Liste steht, wenn es in einem Modell sowohl ein Handy- als auch "
-"ein Telefonfeld gibt."
+"Zeigt an, ob es sich bei einer auf der schwarzen Liste stehenden bereinigten"
+" Telefonnummer um eine Festnetznummer handelt. Hilft bei der Unterscheidung,"
+" welche Nummer auf der schwarzen Liste steht, wenn es in einem Modell sowohl"
+" ein Handy- als auch ein Festnetzfeld gibt."
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job__industry_id
@@ -2317,7 +2317,7 @@ msgstr "Master-Abschluss"
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__medium_id
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_source__medium_id
 msgid "Medium"
-msgstr "Medium"
+msgstr "Mittel"
 
 #. module: hr_recruitment
 #: model:ir.ui.menu,name:hr_recruitment.menu_hr_recruitment_utm_mediums
@@ -2708,7 +2708,7 @@ msgstr "Telefon"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_candidate__phone_sanitized_blacklisted
 msgid "Phone Blacklisted"
-msgstr "Telefon auf der schwarzen Liste"
+msgstr "Telefon auf schwarzer Liste"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_candidate__phone_mobile_search
@@ -2801,7 +2801,7 @@ msgstr "Bereit, Ihren Einstellungsprozess effizienter zu gestalten?"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.applicant_get_refuse_reason_view_form
 msgid "Reason"
-msgstr "Grund"
+msgstr "Begründung"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job__alias_force_thread_id
@@ -3160,7 +3160,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_degree__sequence
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_stage__sequence
 msgid "Sequence"
-msgstr "Reihenfolge"
+msgstr "Sequenz"
 
 #. module: hr_recruitment
 #: model:mail.template,description:hr_recruitment.email_template_data_applicant_interest
@@ -3209,7 +3209,7 @@ msgstr "Einige Werte existieren nicht im Bewerbungsstatus"
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__source_id
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_source__source_id
 msgid "Source"
-msgstr "Quelle"
+msgstr "Herkunft"
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_hr_recruitment_source
@@ -3411,10 +3411,9 @@ msgid ""
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Das Modell (Odoo-Dokumentart), auf das sich der Alias bezieht. Alle "
-"eingehenden E-Mails ohne Bezug zu einer bereits vorhandenen E-Mail führen "
-"üblicherweise zur Erstellung eines neuen Datensatz dieses Modells (z. B. "
-"Projektaufgabe)."
+"Das Modell (Dokumentart), auf das sich der Alias bezieht. Alle eingehenden "
+"E-Mails ohne Bezug zu einer bereits vorhandenen E-Mail führen üblicherweise "
+"zur Erstellung eines neuen Datensatz dieses Modells (z. B. Projektaufgabe)."
 
 #. module: hr_recruitment
 #: model:ir.model.constraint,message:hr_recruitment.constraint_hr_recruitment_degree_name_uniq
@@ -3428,7 +3427,7 @@ msgid ""
 "<jobs@example.odoo.com>"
 msgstr ""
 "Die Bezeichnung des E-Mail-Alias, z. B. „Jobs“, falls Sie E-Mails für "
-"<jobs@beispiel.odoo.com> erhalten möchten"
+"<jobs@example.ks.de> erhalten möchten"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_platform__regex
@@ -3484,8 +3483,8 @@ msgid ""
 "This is the source of the link, e.g. Search Engine, another domain, or name "
 "of email list"
 msgstr ""
-"Dies ist die Quelle des Links, z. B. eine Suchmaschine, andere Webdomain "
-"oder Name der E-Mail-Liste"
+"Dies ist die Quelle des Links, z. B. eine Suchmaschine, andere Domain oder "
+"Name der E-Mail-Liste"
 
 #. module: hr_recruitment
 #. odoo-javascript
@@ -3543,7 +3542,7 @@ msgstr "Erstellen Sie eine Bewerbung, indem Sie eine E-Mail versenden an"
 #. module: hr_recruitment
 #: model_terms:digest.tip,tip_description:hr_recruitment.digest_tip_hr_recruitment_0
 msgid "Try sending an email"
-msgstr "Versuchen Sie, eine E-Mail zu senden"
+msgstr "Versuchen Sie, eine E-Mail"
 
 #. module: hr_recruitment
 #: model_terms:web_tour.tour,rainbow_man_message:hr_recruitment.hr_recruitment_tour

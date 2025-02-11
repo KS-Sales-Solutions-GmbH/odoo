@@ -332,7 +332,7 @@ msgstr ""
 #. module: l10n_ch
 #: model:account.report.column,name:l10n_ch.tax_report_balance
 msgid "Balance"
-msgstr ""
+msgstr "Saldo"
 
 #. module: l10n_ch
 #: model:ir.model,name:l10n_ch.model_res_partner_bank
@@ -342,7 +342,7 @@ msgstr "Bankkonten"
 #. module: l10n_ch
 #: model:ir.model,name:l10n_ch.model_account_setup_bank_manual_config
 msgid "Bank setup manual config"
-msgstr "Bank-Konfiguration Bedienungsanleitung"
+msgstr "Manuelle Konfiguration der Bankeinstellung"
 
 #. module: l10n_ch
 #: model_terms:ir.ui.view,arch_db:l10n_ch.l10n_ch_qr_invoice_wizard_form
@@ -357,17 +357,17 @@ msgstr ""
 #. module: l10n_ch
 #: model:ir.model.fields,field_description:l10n_ch.field_account_journal__invoice_reference_model
 msgid "Communication Standard"
-msgstr "Kommunikationsstandard"
+msgstr "Standardreferenz"
 
 #. module: l10n_ch
 #: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Erstellt von"
 
 #. module: l10n_ch
 #: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Erstellt am"
 
 #. module: l10n_ch
 #: model:ir.model.fields,help:l10n_ch.field_account_bank_statement_line__l10n_ch_is_qr_valid
@@ -379,7 +379,7 @@ msgstr ""
 #. module: l10n_ch
 #: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Anzeigename"
 
 #. module: l10n_ch
 #: model:ir.model,name:l10n_ch.model_l10n_ch_qr_invoice_wizard
@@ -420,7 +420,7 @@ msgstr ""
 #. module: l10n_ch
 #: model:ir.model,name:l10n_ch.model_account_move
 msgid "Journal Entry"
-msgstr "Buchungssatz"
+msgstr "Journalbuchung"
 
 #. module: l10n_ch
 #: model:ir.model.fields,field_description:l10n_ch.field_account_setup_bank_manual_config__l10n_ch_display_qr_bank_options
@@ -443,12 +443,12 @@ msgstr ""
 #. module: l10n_ch
 #: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Zuletzt aktualisiert von"
 
 #. module: l10n_ch
 #: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Zuletzt aktualisiert am"
 
 #. module: l10n_ch
 #: model:ir.model.fields,field_description:l10n_ch.field_l10n_ch_qr_invoice_wizard__nb_classic_inv
@@ -560,7 +560,7 @@ msgstr ""
 #. module: l10n_ch
 #: model:ir.model,name:l10n_ch.model_ir_actions_report
 msgid "Report Action"
-msgstr ""
+msgstr "Berichtsaktion"
 
 #. module: l10n_ch
 #. odoo-python
@@ -597,7 +597,7 @@ msgstr "Schweiz"
 #. module: l10n_ch
 #: model:account.report,name:l10n_ch.tax_report
 msgid "Tax Report"
-msgstr ""
+msgstr "Steuerbericht"
 
 #. module: l10n_ch
 #: model:account.report.line,name:l10n_ch.account_tax_report_line_tax_amount_1
@@ -680,4 +680,4 @@ msgid ""
 "is the Odoo reference."
 msgstr ""
 "Sie können für jede Art von Referenz verschiedene Modelle auswählen. Die "
-"Standardeinstellung ist die Odoo-Referenz."
+"Standardeinstellung ist die Referenz."

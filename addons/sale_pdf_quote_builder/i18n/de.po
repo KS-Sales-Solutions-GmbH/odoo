@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* sale_pdf_quote_builder
-# 
+#
 # Translators:
 # Tiffany Chang, 2024
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
@@ -15,10 +15,10 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2024\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: sale_pdf_quote_builder
@@ -344,7 +344,7 @@ msgstr "Bildbreite"
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__index_content
 msgid "Indexed Content"
-msgstr "Inhaltsindizierung"
+msgstr "Indizierter Inhalt"
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields.selection,name:sale_pdf_quote_builder.selection__product_document__attached_on_sale__inside
@@ -378,7 +378,7 @@ msgid ""
 "Invalid path %(path)s. It should only contain alphanumerics, hyphens, "
 "underscores or points."
 msgstr ""
-"Ungültiger Pfad %(path)s. Er sollte nur alphanumerische Zeichen, "
+"Ungültiger Pfad %(field_name)s. Er sollte nur alphanumerische Zeichen, "
 "Bindestriche, Unterstriche oder Punkte enthalten."
 
 #. module: sale_pdf_quote_builder
@@ -702,9 +702,9 @@ msgid ""
 "link to your file."
 msgstr ""
 "Sie können entweder eine Datei von Ihrem Rechner hochladen oder einen "
-"Internetlink kopieren und einfügen."
+"Internetlink per „kopieren/einfügen“ einfügen."
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
 msgid "on"
-msgstr "am"
+msgstr "auf"

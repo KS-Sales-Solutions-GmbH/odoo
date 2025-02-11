@@ -1,10 +1,10 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* spreadsheet_dashboard_pos_hr
-# 
+#
 # Translators:
 # Wil Odoo, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
@@ -13,10 +13,10 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:42+0000\n"
 "Last-Translator: Wil Odoo, 2024\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: spreadsheet_dashboard_pos_hr
@@ -79,7 +79,7 @@ msgstr "Aufträge nach Monat"
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 msgid "Period"
-msgstr "Zeitraum"
+msgstr "Periode"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
@@ -94,7 +94,7 @@ msgstr "Kassensystem"
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_sample_dashboard.json:0
 msgid "Previous"
-msgstr "Vorherig"
+msgstr "Vorherige"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript
@@ -115,7 +115,7 @@ msgstr "Verantwortlich"
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_dashboard.json:0
 #: code:addons/spreadsheet_dashboard_pos_hr/data/files/pos_sample_dashboard.json:0
 msgid "Revenue"
-msgstr "Umsatz"
+msgstr "Erlöse"
 
 #. module: spreadsheet_dashboard_pos_hr
 #. odoo-javascript

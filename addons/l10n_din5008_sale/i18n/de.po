@@ -44,7 +44,7 @@ msgstr "Kundenreferenz:"
 #. module: l10n_din5008_sale
 #: model_terms:ir.ui.view,arch_db:l10n_din5008_sale.report_saleorder_document
 msgid "Expiration:"
-msgstr "Gültigkeit:"
+msgstr "Verfall:"
 
 #. module: l10n_din5008_sale
 #: model_terms:ir.ui.view,arch_db:l10n_din5008_sale.report_saleorder_document
@@ -54,17 +54,17 @@ msgstr "Incoterm:"
 #. module: l10n_din5008_sale
 #: model_terms:ir.ui.view,arch_db:l10n_din5008_sale.report_saleorder_document
 msgid "Order Date:"
-msgstr "Auftragsdatum:"
+msgstr "Datum der Bestellung:"
 
 #. module: l10n_din5008_sale
 #: model_terms:ir.ui.view,arch_db:l10n_din5008_sale.report_saleorder_document
 msgid "Order No.:"
-msgstr "Auftragsnr.:"
+msgstr "Best.-Nr:"
 
 #. module: l10n_din5008_sale
 #: model_terms:ir.ui.view,arch_db:l10n_din5008_sale.report_saleorder_document
 msgid "Pro Forma Invoice"
-msgstr "Pro-forma-Rechnung"
+msgstr "Proforma-Rechnung"
 
 #. module: l10n_din5008_sale
 #: model_terms:ir.ui.view,arch_db:l10n_din5008_sale.report_saleorder_document
@@ -74,17 +74,17 @@ msgstr "Angebot"
 #. module: l10n_din5008_sale
 #: model_terms:ir.ui.view,arch_db:l10n_din5008_sale.report_saleorder_document
 msgid "Quotation Date:"
-msgstr "Angebotsdatum:"
+msgstr "Datum des Angebots:"
 
 #. module: l10n_din5008_sale
 #: model_terms:ir.ui.view,arch_db:l10n_din5008_sale.report_saleorder_document
 msgid "Quotation No.:"
-msgstr "Angebotsnr.:"
+msgstr "Angebot Nr.:"
 
 #. module: l10n_din5008_sale
 #: model_terms:ir.ui.view,arch_db:l10n_din5008_sale.report_saleorder_document
 msgid "Sales Order"
-msgstr "Auftragsbestätigung"
+msgstr "Verkaufsauftrag"
 
 #. module: l10n_din5008_sale
 #: model_terms:ir.ui.view,arch_db:l10n_din5008_sale.report_saleorder_document

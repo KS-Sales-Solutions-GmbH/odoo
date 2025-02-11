@@ -1,11 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* sale
-# 
+#
 # Translators:
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
@@ -14,10 +14,10 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2024\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: sale
@@ -1355,7 +1355,7 @@ msgstr "Kostenrechnung aus Auslagen"
 #. module: sale
 #: model:ir.model,name:sale.model_account_analytic_line
 msgid "Analytic Line"
-msgstr "Kostenstellenbuchung"
+msgstr "Kostenstellenbuchungen"
 
 #. module: sale
 #: model:ir.model,name:sale.model_account_analytic_applicability
@@ -1567,7 +1567,7 @@ msgstr "Kann Produkt bearbeiten"
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 #: model_terms:ir.ui.view,arch_db:sale.view_sale_advance_payment_inv
 msgid "Cancel"
-msgstr "Stornieren"
+msgstr "Abbrechen"
 
 #. module: sale
 #. odoo-python
@@ -1670,7 +1670,7 @@ msgstr "Klicken Sie hier, um ein Abrechnungsziel zu definieren."
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Close"
-msgstr "Abschließen"
+msgstr "Schließen"
 
 #. module: sale
 #: model:ir.ui.menu,name:sale.menu_product_combos
@@ -1870,7 +1870,7 @@ msgstr "Kundenrechnung erstellen"
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.product_template_action
 msgid "Create a new product"
-msgstr "Neues Produkt erstellen"
+msgstr "Ein neues Produkt erstellen"
 
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.act_res_partner_2_sale_order
@@ -2122,7 +2122,7 @@ msgstr "Inhalte per E-Mail senden"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Delivered"
-msgstr "Geliefert"
+msgstr "Zugestellt"
 
 #. module: sale
 #. odoo-python
@@ -2201,7 +2201,7 @@ msgstr "Verwerfen"
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_line_wizard_form
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Discount"
-msgstr "Rabatt"
+msgstr "Damnum/Disagio"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_report__discount
@@ -2453,7 +2453,7 @@ msgstr "Erwartet:"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view
 msgid "Expense"
-msgstr "Ausgabe"
+msgstr "Aufwand"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__validity_date
@@ -2571,12 +2571,12 @@ msgstr "Anstehende Aktivitäten"
 #. module: sale
 #: model:ir.model,name:sale.model_payment_link_wizard
 msgid "Generate Sales Payment Link"
-msgstr "Zahlungslink für den Auftrag generieren"
+msgstr "Zahlungslink für Aufträge generieren"
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_sale_order_generate_link
 msgid "Generate a Payment Link"
-msgstr "Einen Zahlungslink generieren"
+msgstr "Einen Zahlungslink erstellen"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -2689,7 +2689,7 @@ msgstr "ID"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__activity_exception_icon
 msgid "Icon"
-msgstr "Icon"
+msgstr "Symbol"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__activity_exception_icon
@@ -2809,7 +2809,7 @@ msgstr "Rechnung bestätigt"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__invoice_count
 msgid "Invoice Count"
-msgstr "Rechnungsanzahl"
+msgstr "Anzahl Ausgangsrechnungen"
 
 #. module: sale
 #: model:mail.message.subtype,name:sale.mt_salesteam_invoice_created
@@ -2929,7 +2929,7 @@ msgstr "Rechnungsstatistiken"
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Invoicing"
-msgstr "Rechnungsstellung"
+msgstr "Buchhaltung"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
@@ -3196,7 +3196,7 @@ msgstr "Marketing"
 #: model:ir.model.fields,field_description:sale.field_sale_order__medium_id
 #: model:ir.model.fields,field_description:sale.field_sale_report__medium_id
 msgid "Medium"
-msgstr "Medium"
+msgstr "Mittel"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view
@@ -3572,7 +3572,7 @@ msgstr "Auftragsdatum"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "Order Date:"
-msgstr "Auftragsdatum:"
+msgstr "Datum der Bestellung:"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_product_search
@@ -3880,7 +3880,7 @@ msgstr "Produkt"
 #. module: sale
 #: model:ir.model,name:sale.model_product_attribute_custom_value
 msgid "Product Attribute Custom Value"
-msgstr "Produktattribut Benutzerdefiniert"
+msgstr "Produktattribut Benutzerdefinierter Wert"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -4208,7 +4208,7 @@ msgstr "Entfernen"
 #. odoo-javascript
 #: code:addons/sale/static/src/js/quantity_buttons/quantity_buttons.xml:0
 msgid "Remove one"
-msgstr "Eins entfernen"
+msgstr "Entfernen"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_cancel__render_model
@@ -4293,7 +4293,7 @@ msgstr "SO0000"
 #. odoo-javascript
 #: code:addons/sale/static/src/js/sale_action_helper/sale_action_helper_dialog.xml:0
 msgid "Sale"
-msgstr "Sale"
+msgstr "Verkauf"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_product_document__attached_on_sale
@@ -4446,7 +4446,7 @@ msgstr "Verkaufsauftrag bestätigt"
 #: model:ir.model.fields,field_description:sale.field_account_analytic_line__so_line
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_line_view_form_readonly
 msgid "Sales Order Item"
-msgstr "Auftragsposition"
+msgstr "Verkaufsauftragsposition"
 
 #. module: sale
 #: model:ir.model,name:sale.model_sale_order_line
@@ -4839,7 +4839,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale.field_sale_order__source_id
 #: model:ir.model.fields,field_description:sale.field_sale_report__source_id
 msgid "Source"
-msgstr "Quelle"
+msgstr "Herkunft"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__origin
@@ -4931,7 +4931,7 @@ msgstr "Steuer 15 %"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__tax_calculation_rounding_method
 msgid "Tax Calculation Rounding Method"
-msgstr "Steuerliches Rundungsverfahren"
+msgstr "Rundungsmethode für Steuerberechnung"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__tax_country_id
@@ -5298,8 +5298,8 @@ msgid ""
 "This is the source of the link, e.g. Search Engine, another domain, or name "
 "of email list"
 msgstr ""
-"Dies ist die Quelle des Links, z. B. eine Suchmaschine, andere Webdomain "
-"oder Name der E-Mail-Liste"
+"Dies ist die Quelle des Links, z. B. eine Suchmaschine, andere Domain oder "
+"Name der E-Mail-Liste"
 
 #. module: sale
 #. odoo-javascript
@@ -5900,7 +5900,7 @@ msgstr "bpost-Konnektor"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "close"
-msgstr "Schließen"
+msgstr "schließen"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form

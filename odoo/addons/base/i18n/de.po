@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* base
-# 
+#
 # Translators:
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # Larissa Manderfeld, 2025
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
@@ -15,10 +15,10 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larissa Manderfeld, 2025\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: base
@@ -2727,7 +2727,7 @@ msgstr ""
 "Ermöglicht Ihnen, Liefermethoden in Verkaufsaufträgen und Kommissionierung hinzuzufügen.\n"
 "==================================================\n"
 "\n"
-"Sie können Ihre eigenen Zusteller für Preise definieren.\n"
+"Sie können Ihre eigenen Transportunternehmen für Preise definieren.\n"
 "Das System ist in der Lage, die Versandzeile hinzuzufügen und zu berechnen.\n"
 
 #. module: base
@@ -4490,7 +4490,7 @@ msgstr ""
 "\n"
 "Wenn Sie eine ausgehende Kommissionierung in einem italienischen Unternehmen drucken wollen, \n"
 "wird stattdessen ein DDT gedruckt. Er ist wie der Lieferschein, enthält aber auch den Wert des Produkts, \n"
-"den Transportgrund, den Zusteller ... Das macht ihn zu einem DDT.  \n"
+"den Transportgrund, das Transportunternehmen ... Das macht ihn zu einem DDT.  \n"
 "\n"
 "Für den DDT wird eine eine eigene Sequenz verwendet, denn die Nummer darf keine \n"
 "keine Lücken aufweisen und darf und sollte erst zum Zeitpunkt des Versands der Waren angebracht werden.\n"
@@ -8730,8 +8730,6 @@ msgstr ""
 " * Definiert Steuervorlagen\n"
 " * Definiert Steuerpositionen für spanische Steuervorschriften\n"
 " * Definiert Steuerberichte der Modelle 111, 115 und 303\n"
-"\n"
-"5.3: Aktualisierung der Steuern ab Q4 2024 gemäß BOE-A-2024-12944 (Königlicher Erlass 4/2024) https://www.boe.es/buscar/act.php?id=BOE-A-2024-12944\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_sale_renting
@@ -11679,9 +11677,9 @@ msgid ""
 "Allows to prepare batches depending on their carrier\n"
 msgstr ""
 "\n"
-"Dieses Modul stellt die Verbindung zwischen den Apps der Stapelkommissionierung und den Zusteller her.\n"
+"Dieses Modul stellt die Verbindung zwischen den Apps der Stapelkommissionierung und den Transportunternehmen her.\n"
 "\n"
-"Ermöglicht die Vorbereitung von Stapeln in Abhängigkeit von ihrem Zusteller\n"
+"Ermöglicht die Vorbereitung von Stapeln in Abhängigkeit von ihrem Transportunternehmen\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_approvals
@@ -11914,7 +11912,7 @@ msgstr ""
 "Die Testdateien sind nach Quellen getrennt, aus denen sie entnommen wurden:\n"
 "\n"
 "* das Dok. factur-x (vom FNFE)\n"
-"* das Dok. peppol-bis-invoice-3 (das Github-Repository: https://github.com/OpenPEPPOL/peppol-bis-invoice-3/tree/master/rules/examples enthält Beispiele)\n"
+"* das Dok. peppol-bis-invoice-3 (das Github-Repository: https://github.com/OpenPEPPOL/peppol-bis-invoice-3/tree/master/rules/examples contains examples)\n"
 "* odoo, diese Dateien bestehen alle Validierungstests (mit ecosio oder dem FNFE-Validator)\n"
 "\n"
 "Wir testen, ob die externen Beispiele korrekt importiert werden (Währung, Gesamtbetrag und Gesamtsteuerübereinstimmung).\n"
@@ -12828,7 +12826,7 @@ msgstr "(Datensatz: %(record)s, Benutzer: %(user)s)"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "), are you sure you want to create a new one?"
-msgstr "). Sind Sie sicher, dass Sie einen neuen erstellen möchten?"
+msgstr "). Sind Sie sicher, dass Sie einen neue erstellen möchten?"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.wizard_lang_export
@@ -14259,7 +14257,7 @@ msgstr "Konto Online-Zahlung"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_qr_code_sepa
 msgid "Account SEPA QR Code"
-msgstr "QR-Code für SEPA-Konto"
+msgstr "Konto SEPA QR-Code"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_users_form
@@ -14290,7 +14288,7 @@ msgstr "Kontoinhabername, wenn dieser nicht der Name des Kontoinhabers ist"
 #: model:ir.module.module,shortdesc:base.module_accountant
 #: model_terms:ir.ui.view,arch_db:base.user_groups_view
 msgid "Accounting"
-msgstr "Buchhaltung"
+msgstr "Rechnungsstellung"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mrp_account
@@ -14697,20 +14695,17 @@ msgid ""
 " the lead."
 msgstr ""
 "Fügen Sie die Informationen des Verkaufsauftrags hinzu, der mit der "
-"Registrierung für die Erstellung des Leads verbunden ist."
+"Registrierung für die Erstellung des Interessenten verbunden ist."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mass_mailing_crm
 msgid "Add lead / opportunities UTM info on mass mailing"
-msgstr ""
-"UTM-Informationen über Leads/Verkaufschancen bei Massenmailings hinzufügen"
+msgstr "UTM-Informationen über Interessenten bei Massenmailings hinzufügen"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mass_mailing_crm_sms
 msgid "Add lead / opportunities info on mass mailing sms"
-msgstr ""
-"Informationen über Leads/Verkaufschancen zu Massenmailings per SMS "
-"hinzufügen"
+msgstr "Informationen über Interessenten zu Massenmailings per SMS hinzufügen"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_social_sale
@@ -15530,7 +15525,8 @@ msgstr "Terminbuchung in Ihrem Kalender ermöglichen"
 #. module: base
 #: model:ir.module.module,description:base.module_website_event_crm
 msgid "Allow per-order lead creation mode"
-msgstr "Erlauben Sie den Modus für die Erstellung von Leads pro Auftrag"
+msgstr ""
+"Erlauben Sie den Modus für die Erstellung von Interessenten pro Auftrag"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_sale_comparison
@@ -15630,7 +15626,7 @@ msgid ""
 "Allows to send sms to website visitor if the visitor is linked to a lead."
 msgstr ""
 "Ermöglicht den Versand von SMS an Website-Besucher, wenn der Besucher mit "
-"einem Lead verknüpft ist."
+"einem Interessent verknüpft ist."
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_sms
@@ -15643,7 +15639,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_website_crm_sms
 msgid "Allows to send sms to website visitor that have lead"
-msgstr "Erlaubt das Senden von SMS an Website-Besucher mit Lead"
+msgstr "Erlaubt das Senden von SMS an Website-Besucher mit Interessent"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_stock_renting
@@ -17526,7 +17522,7 @@ msgstr "Bewertung Ihrer Mitarbeiter"
 #: model:ir.model,name:base.model_ir_asset
 #: model:ir.module.category,name:base.module_category_accounting_localizations_asset
 msgid "Asset"
-msgstr "Asset"
+msgstr "Aktiva"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_asset
@@ -17535,7 +17531,7 @@ msgstr "Asset"
 #: model_terms:ir.ui.view,arch_db:base.asset_view_search
 #: model_terms:ir.ui.view,arch_db:base.asset_view_tree
 msgid "Assets"
-msgstr "Assets"
+msgstr "Aktiva"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_asset
@@ -18161,7 +18157,7 @@ msgstr "Falsches Dateiformat: %s"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users__barcode
 msgid "Badge ID"
-msgstr "Ausweis ID"
+msgstr "Ausweis-ID"
 
 #. module: base
 #: model:res.country,name:base.bs
@@ -18468,7 +18464,7 @@ msgstr "Sammelzahlung"
 #. module: base
 #: model:ir.module.module,summary:base.module_delivery_stock_picking_batch
 msgid "Batch Transfer, Carrier"
-msgstr "Stapeltransfer, Zusteller"
+msgstr "Stapeltransfer, Transportunternehmen"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ar_website_sale
@@ -19205,7 +19201,7 @@ msgstr "CPA005-Zahlungen"
 #: model:ir.module.category,name:base.module_category_sales_crm
 #: model:ir.module.module,shortdesc:base.module_crm
 msgid "CRM"
-msgstr "CRM"
+msgstr "Interessenten"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_data_merge_crm
@@ -21698,7 +21694,7 @@ msgstr "Dashboard"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_board
 msgid "Dashboards"
-msgstr "Dashboards"
+msgstr "Statistiken"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_productivity_data_cleaning
@@ -21709,7 +21705,7 @@ msgstr "Datenbereinigung"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_data_recycle
 msgid "Data Recycle"
-msgstr "Datenrecycling"
+msgstr "Daten-Recycling"
 
 #. module: base
 #: model:ir.module.module,description:base.module_test_convert
@@ -22354,7 +22350,7 @@ msgstr "Mehr entdecken"
 #: model:ir.module.category,name:base.module_category_productivity_discuss
 #: model:ir.module.module,shortdesc:base.module_mail
 msgid "Discuss"
-msgstr "Dialog"
+msgstr "Memoboard"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_currency_form
@@ -23062,7 +23058,7 @@ msgstr "Ecuadorianische Website"
 #. module: base
 #: model:res.partner.industry,name:base.res_partner_industry_P
 msgid "Education"
-msgstr "Bildung"
+msgstr "Ausbildung"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__res_partner__tz__egypt
@@ -24313,7 +24309,7 @@ msgstr "Gruppen erweitern"
 #: model:ir.module.category,name:base.module_category_human_resources_expenses
 #: model:ir.module.module,shortdesc:base.module_hr_expense
 msgid "Expenses"
-msgstr "Spesenabrechnung"
+msgstr "Aufwand"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_payroll_expense
@@ -25238,8 +25234,8 @@ msgid ""
 "For more details about translating Odoo in your language, please refer to "
 "the"
 msgstr ""
-"Weitere Informationen über die Übersetzung von Odoo in Ihre Sprache finden "
-"Sie in der"
+"Weitere Informationen über die Übersetzung  in Ihre Sprache finden Sie in "
+"der"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_fields__relation_field
@@ -26848,7 +26844,7 @@ msgstr "ID"
 #: model:ir.model.fields,help:base.field_ir_actions_server__xml_id
 #: model:ir.model.fields,help:base.field_ir_cron__xml_id
 msgid "ID of the action if defined in a XML file"
-msgstr "Die ID für diese ist in einem xml File definiert."
+msgstr "ID dieser Aktion, wenn in einer XML-Datei definiert"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_data__res_id
@@ -26863,7 +26859,7 @@ msgstr "ID der Ansicht, die in einer xml-Datei definiert ist"
 #. module: base
 #: model:ir.model.fields,help:base.field_res_users__barcode
 msgid "ID used for employee identification."
-msgstr "ID die für die Mitarbeiterkennung verwendet wird."
+msgstr "ID, die zur Mitarbeiterkennung verwendet wird."
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_bus
@@ -26917,7 +26913,7 @@ msgstr "Island"
 #: model_terms:ir.ui.view,arch_db:base.module_view_kanban
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
 msgid "Icon"
-msgstr "Icon"
+msgstr "Symbol"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_module__icon
@@ -27101,8 +27097,8 @@ msgid ""
 "related object's read access."
 msgstr ""
 "Wenn Gruppen vorhanden sind, wird die Sichtbarkeit dieses Menüs an diese "
-"Gruppen gebunden. Ist dieses Feld leer, wird Odoo die Sichtbarkeit anhand "
-"der Leseberechtigung der verbundenen Objekte errechnen."
+"Gruppen gebunden. Ist dieses Feld leer, wird das CRM-System die Sichtbarkeit"
+" anhand der Leseberechtigung der verbundenen Objekte errechnen."
 
 #. module: base
 #. odoo-python
@@ -27283,7 +27279,8 @@ msgstr "Buchhaltungsdaten aus SIE-Dateien importieren."
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_amazon
 msgid "Import Amazon orders and sync deliveries"
-msgstr "Bestellungen von Amazon importieren und Lieferungen synchronisieren"
+msgstr ""
+"Importieren Sie Amazon-Bestellungen und synchronisieren Sie Lieferungen"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_bank_statement_import_camt
@@ -28277,7 +28274,7 @@ msgstr "Rechnungen, Zahlungen, Mahnungen & Banksynchronisierung (Enterprise)"
 #: model:ir.module.module,shortdesc:base.module_account
 #: model:ir.module.module,shortdesc:base.module_account_accountant
 msgid "Invoicing"
-msgstr "Rechnungsstellung"
+msgstr "Buchhaltung"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hw_posbox_homepage
@@ -29356,7 +29353,7 @@ msgstr "Lev"
 #: model:ir.model.fields,field_description:base.field_ir_logging__level
 #: model_terms:ir.ui.view,arch_db:base.ir_logging_search_view
 msgid "Level"
-msgstr "Level"
+msgstr "Ebene"
 
 #. module: base
 #: model:res.country,name:base.lr
@@ -29660,7 +29657,7 @@ msgstr "Protokolldetails"
 #: model:ir.model.fields,field_description:base.field_res_users__login
 #: model_terms:ir.ui.view,arch_db:base.view_res_users_kanban
 msgid "Login"
-msgstr "Login"
+msgstr "Anmelden"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_company__logo_web
@@ -30167,11 +30164,11 @@ msgid ""
 "assigned to specific groups in order to make them accessible to some users "
 "within the system."
 msgstr ""
-"Verwalten Sie die in Ihrem Odoo-Systemmenü verfügbaren und angezeigten "
-"Elemente und passen Sie sie an. Sie können ein Element durch Anklicken des "
-"Feldes zu Beginn jeder Zeile und durch Klick auf die angezeigte Schaltfläche"
-" löschen. Elemente können bestimmten Gruppen zugewiesen werden, um Benutzern"
-" Berechtigungen und Zugriff zu geben."
+"Verwalten Sie die in Ihrem Systemmenü verfügbaren und angezeigten Elemente "
+"und passen Sie sie an. Sie können ein Element durch Anklicken des Feldes zu "
+"Beginn jeder Zeile und durch Klick auf die angezeigte Schaltfläche löschen. "
+"Elemente können bestimmten Gruppen zugewiesen werden, um Benutzern "
+"Berechtigungen und Zugriff zu geben."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_slides
@@ -30657,7 +30654,7 @@ msgstr "Die folgenden Kontakte zusammenführen"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.base_partner_merge_automatic_wizard_form
 msgid "Merge with Manual Check"
-msgstr "Mit manueller Prüfung zusammenführen"
+msgstr "Zusammenführen mit manueller Prüfung"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_logging__message
@@ -33873,22 +33870,22 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:base.action_partner_customer_form
 msgid "Odoo helps you easily track all activities related to a customer."
 msgstr ""
-"Mit Odoo können Sie auf einfache Weise alle mit einem Kunden verbundenen "
-"Aktivitäten verfolgen."
+"Mit dem CRM-System können Sie auf einfache Weise alle mit einem Kunden "
+"verbundenen Aktivitäten verfolgen."
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_supplier_form
 msgid "Odoo helps you easily track all activities related to a vendor."
 msgstr ""
-"Mit Odoo können Sie auf einfache Weise alle mit einem Lieferanten "
+"Mit dem CRM-System können Sie auf einfache Weise alle mit einem Lieferanten "
 "verbundenen Aktivitäten verfolgen."
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_form
 msgid "Odoo helps you track all activities related to your contacts."
 msgstr ""
-"Mit Odoo können Sie alle Aktivitäten mit Ihren Kontakten verbundenen "
-"Aktivitäten verfolgen."
+"Mit dem CRM-System können Sie alle Aktivitäten mit Ihren Kontakten "
+"verbundenen Aktivitäten verfolgen."
 
 #. module: base
 #. odoo-python
@@ -33922,8 +33919,8 @@ msgid ""
 "Odoo will automatically adds some '0' on the left of the 'Next Number' to "
 "get the required padding size."
 msgstr ""
-"Odoo fügt automatisch „0“ vor „Nächste Nummer“ hinzu, um die erforderliche "
-"Länge zu haben."
+"Das CRM-System fügt automatisch „0“ vor „Nächste Nummer“ hinzu, um die "
+"erforderliche Länge zu haben."
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
@@ -35356,7 +35353,7 @@ msgstr "Verarbeitung von Barcodes gemäß den GS1-128-Spezifikationen"
 #: model:ir.model.fields,field_description:base.field_res_company__partner_id
 #: model_terms:ir.ui.view,arch_db:base.view_partner_address_form
 msgid "Partner"
-msgstr "Partner"
+msgstr "Kunde"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_partner_autocomplete
@@ -36046,7 +36043,7 @@ msgid ""
 "                They usually do not belong to the usual Odoo groups."
 msgstr ""
 "Portalnutzer haben bestimmte Zugriffsrechte (z. B. Datensatzregeln und eingeschränkte Menüs).\n"
-"Sie gehören in der Regel nicht zu den üblichen Odoo-Gruppen."
+"Sie gehören in der Regel nicht zu den üblichen Gruppen."
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__report_paperformat__orientation__portrait
@@ -36768,7 +36765,7 @@ msgid ""
 "                They usually do not belong to the usual Odoo groups."
 msgstr ""
 "Öffentliche Benutzer haben bestimmte Zugriffsrechte (z. B. Datensatzregeln und eingeschränkte Menüs).\n"
-"Sie gehören in der Regel nicht zu den üblichen Odoo-Gruppen."
+"Sie gehören in der Regel nicht zu den üblichen Gruppen."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_blog
@@ -37266,7 +37263,7 @@ msgstr "Datensatz-ID"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_rule_search
 msgid "Record Rule"
-msgstr "Datensatzregel"
+msgstr "Regel"
 
 #. module: base
 #. odoo-python
@@ -37956,7 +37953,7 @@ msgstr "Regeln können nicht einfach aufgezeichnet und angewendet werden."
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
 msgid "Run"
-msgstr "Ausführen"
+msgstr "Starten"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.ir_cron_view_form
@@ -38892,7 +38889,7 @@ msgstr "Sen"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner_bank__allow_out_payment
 msgid "Send Money"
-msgstr "Geld schicken"
+msgstr "Geld senden"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_sms
@@ -41267,9 +41264,10 @@ msgid ""
 "Odoo. They are launched during the installation of new modules, but you can "
 "choose to restart some wizards manually from this menu."
 msgstr ""
-"Die Konfigurationsassistenten helfen bei der Implementierung von Odoo. Sie "
-"werden üblicherweise während der Installation von Modulen gestartet. Einige "
-"Assistenten können auch über ein Menü manuell gestartet werden."
+"Die Konfigurationsassistenten helfen bei der Implementierung von Ihrem CRM-"
+"System. Sie werden üblicherweise während der Installation von Modulen "
+"gestartet. Einige Assistenten können auch über ein Menü manuell gestartet "
+"werden."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_fields__related
@@ -42771,7 +42769,7 @@ msgstr "Tiyin"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_sequence_date_range__date_to
 msgid "To"
-msgstr "Bis"
+msgstr "Nach"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_actions_todo__state__open
@@ -44211,7 +44209,7 @@ msgstr "Usbekistan"
 #: model:res.country,vat_label:base.si model:res.country,vat_label:base.sk
 #: model:res.country,vat_label:base.uk
 msgid "VAT"
-msgstr "USt-IdNr."
+msgstr "Umsatzsteuer"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_vat
@@ -44424,9 +44422,9 @@ msgid ""
 "Views allows you to personalize each view of Odoo. You can add new fields, "
 "move fields, rename them or delete the ones that you do not need."
 msgstr ""
-"Mit Ansichten können Sie jede Ansicht von Odoo personalisieren. Sie können "
-"neue Felder hinzufügen, verschieben, umbenennen oder nicht benötigte Felder "
-"löschen."
+"Mit Ansichten können Sie jede Ansicht vom CRM-System personalisieren. Sie "
+"können neue Felder hinzufügen, verschieben, umbenennen oder nicht benötigte "
+"Felder löschen."
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_ui_view__inherit_children_ids
@@ -45071,7 +45069,7 @@ msgstr ""
 #: model:res.currency,currency_unit_label:base.KPW
 #: model:res.currency,currency_unit_label:base.KRW
 msgid "Won"
-msgstr "Gewonnen"
+msgstr "Verkauft"
 
 #. module: base
 #: model:res.partner,website_short_description:base.res_partner_1
@@ -45261,7 +45259,7 @@ msgid ""
 "\"%(category)s\":%(module_list)s"
 msgstr ""
 "Sie versuchen, inkompatible Module in Kategorie "
-"„%(category)s“:%(module_list)s“ zu installieren"
+"„%(category)s“:%(module_list)s zu installieren:%s"
 
 #. module: base
 #. odoo-python
@@ -45981,7 +45979,7 @@ msgstr "z. B. https://maker.ifttt.com/use/..."
 #: model_terms:ir.ui.view,arch_db:base.view_partner_address_form
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "e.g. https://www.odoo.com"
-msgstr "z. B. https://www.odoo.com"
+msgstr "z. B. https://www.ks-sales-solutions.de"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_sale
@@ -46188,7 +46186,7 @@ msgstr "nein"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_attachment_form
 msgid "on"
-msgstr "am"
+msgstr "auf"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_model_fields__ttype__one2many
@@ -46444,7 +46442,7 @@ msgstr "Jahr"
 #. odoo-python
 #: code:addons/base/models/ir_fields.py:0
 msgid "yes"
-msgstr "ja"
+msgstr "Ja"
 
 #. module: base
 #: model:res.country,name:base.ax
